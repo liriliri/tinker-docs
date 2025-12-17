@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Toolbox for Everyone
+title: 为所有人打造的工具箱
 ---
 <script setup>
 import AppHome from '@share/components/AppHome.vue'
@@ -40,8 +40,8 @@ const features = [
 </script>
 
 <AppHome 
-  title="TINKER Desktop Toolbox" 
-  subtitle="TINKER is a toolbox that brings together a variety of productivity tools."
+  title="TINKER 桌面工具箱" 
+  subtitle="TINKER 是一个集合了多款效率小应用的工具箱。"
   :code="code"
   :version="version"
   :downloads="downloads"
