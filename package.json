@@ -1,0 +1,31 @@
+{
+  "name": "tinker-docs",
+  "version": "0.1.0",
+  "description": "Tinkder docs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "format": "lsla prettier \"*.json\" \"docs/**/*.{mts,js,vue,css}\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/tinker-docs.git"
+  },
+  "keywords": [
+    "tinker"
+  ],
+  "author": "surunzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liriliri/tinker-docs/issues"
+  },
+  "homepage": "https://github.com/liriliri/tinker-docs#readme",
+  "devDependencies": {
+    "luna-shader-toy-player": "^0.5.1",
+    "vitepress": "^1.5.0"
+  },
+  "dependencies": {
+    "@types/node": "^25.0.3"
+  }
+}

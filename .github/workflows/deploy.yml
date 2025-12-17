@@ -1,0 +1,34 @@
+name: Deploy TINKER 
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with: 
+        path: project/tinker-docs
+        submodules: true
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '18.x'
+    - working-directory: ./project/tinker-docs
+      run: |
+        npm i
+        npm run build
+        mkdir -p ../../liriliri/tinker
+        cp -r dist/* ../../liriliri/tinker
+    - uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        source: "liriliri/tinker/"
+        target: "/var/www/"
