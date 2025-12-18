@@ -87,5 +87,5 @@ export default defineConfig({
       alias: [shareAlias],
     },
   },
-  head: googleAnalytics('G-D6N7TDQ4DS'),
+  head: googleAnalytics('G-PSDF66BGWZ'),
 })
