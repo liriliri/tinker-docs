@@ -8,8 +8,8 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
   float time = iTime * 2.0;
   vec3 color = vec3(0.0);
 
-  for (float i = -3.0; i <= 3.0; i += 1.25) {
-    for (float j = -2.0; j <= 2.0; j += 1.25) {
+  for (float i = -2.0; i <= 4.0; i += 1.25) {
+    for (float j = -2.0; j <= 4.0; j += 1.25) {
       vec2 p = uv;
 
       float freq = fract(643.376 * cos(264.863 * i + 136.937)) + 1.0;
@@ -25,7 +25,7 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
       float frac = fract(time);
       float flicker = mix(Hash31(vec3(i, j, sec)), Hash31(vec3(i, j, sec + 1.0)), frac);
 
-      float rad = 25.0 + 20.0 * flicker;
+      float rad = 25.0 + 80.0 * flicker;
       float br = 250.0 * pow(1.0 / max(10.0, rad * (sqrt(abs(p.x)) + sqrt(abs(p.y))) + 0.9), 2.5);
       float rand = fract(847.384 * cos(483.846 * i + 737.487 * j + 264.836));
       if (rand > 0.5) color += mix(vec3(br, 0.4 * br, 0.0), vec3(1.0), br);

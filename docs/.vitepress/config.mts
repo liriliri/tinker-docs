@@ -18,7 +18,7 @@ const icon = (name: string) => {
 
 export default defineConfig({
   title: 'TINKER',
-  description: 'TINKERDocumentation',
+  description: 'TINKER Documentation',
   lastUpdated: true,
   outDir: '../dist',
   themeConfig: {
