@@ -36,6 +36,21 @@ const downloads = [
 ]
 
 const features = [
+  {
+    title: '使用方便',
+    desc: '快捷键呼出，搜索工具回车打开，使用完自动隐藏。',
+    image: '/calculation_pad.png'
+  },
+  {
+    title: '质量优秀',
+    desc: '内置多款常用的高质量插件',
+    image: '/image_compressor.png'
+  },
+  {
+    title: '丰富扩展',
+    desc: '支持安装第三方优秀工具',
+    image: '/drawio.png'
+  }
 ]
 </script>
 

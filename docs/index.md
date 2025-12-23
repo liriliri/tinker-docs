@@ -36,6 +36,21 @@ const downloads = [
 ]
 
 const features = [
+  {
+    title: 'Easy to Use',
+    desc: 'Quickly launch with a shortcut, search and open tools with Enter, and auto-hide after use.',
+    image: '/calculation_pad.png'
+  },
+  {
+    title: 'High Quality',
+    desc: 'Built-in high-quality plugins for common tasks.',
+    image: '/image_compressor.png'
+  },
+  {
+    title: 'Extensible',
+    desc: 'Supports installing excellent third-party tools.',
+    image: '/drawio.png'
+  }
 ]
 </script>
 
