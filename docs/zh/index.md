@@ -6,7 +6,7 @@ title: 为所有人打造的工具箱
 import AppHome from '@share/components/AppHome.vue'
 import code from '@theme/lib/code'
 
-const version = "0.13.2"
+const version = "1.0.0"
 
 const downloads = [
   {
