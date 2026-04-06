@@ -107,6 +107,10 @@ export default defineConfig({
               text: 'Gamepad',
               link: '/guide/official-plugins/gamepad',
             },
+            {
+              text: 'GBA',
+              link: '/guide/official-plugins/gba',
+            },
           ],
         },
       ],
@@ -192,6 +196,10 @@ export default defineConfig({
                 {
                   text: '手柄测试',
                   link: '/zh/guide/official-plugins/gamepad',
+                },
+                {
+                  text: 'GBA',
+                  link: '/zh/guide/official-plugins/gba',
                 },
               ],
             },

@@ -48,4 +48,5 @@ In `docs/.vitepress/config.mts`, add an entry to BOTH sidebar sections:
 - The sidebar item `text` MUST come from `package.json`: English uses `tinker.name`, Chinese uses `tinker.locales.zh-CN.name` (if it exists, otherwise fall back to `tinker.name`)
 - The file name under `official-plugins/` should be the plugin name without the `tinker-` prefix (e.g. `tinker-whois` → `whois.md`)
 - The sidebar category is `Official Plugins` (EN) / `官方插件` (ZH) with `collapsed: false`
+- Sidebar items MUST be sorted by plugin ID in alphabetical order (e.g. bilibili-downloader → electron-debug → emoji → gamepad → gba)
 - Screenshot images should reference the raw GitHub URL from the README
