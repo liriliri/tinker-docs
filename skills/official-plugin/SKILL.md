@@ -1,5 +1,5 @@
 ---
-name: add-official-plugin-doc
+name: official-plugin
 description: Add an official plugin documentation page to tinker-docs from tinker-plugins.
 ---
 
