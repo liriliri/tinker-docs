@@ -57,6 +57,32 @@ export default defineConfig({
           text: 'Quick Start',
           link: '/guide/quickstart',
         },
+        {
+          text: 'Official Plugins',
+          collapsed: false,
+          items: [
+            {
+              text: 'WHOIS',
+              link: '/guide/official-plugins/whois',
+            },
+            {
+              text: 'Bilibili Downloader',
+              link: '/guide/official-plugins/bilibili-downloader',
+            },
+            {
+              text: 'Electron Debug',
+              link: '/guide/official-plugins/electron-debug',
+            },
+            {
+              text: 'Emoji',
+              link: '/guide/official-plugins/emoji',
+            },
+            {
+              text: 'Gamepad',
+              link: '/guide/official-plugins/gamepad',
+            },
+          ],
+        },
       ],
     },
     socialLinks: [
@@ -94,6 +120,32 @@ export default defineConfig({
             {
               text: '快速开始',
               link: '/zh/guide/quickstart',
+            },
+            {
+              text: '官方插件',
+              collapsed: false,
+              items: [
+                {
+                  text: 'WHOIS 查询',
+                  link: '/zh/guide/official-plugins/whois',
+                },
+                {
+                  text: 'B站视频下载',
+                  link: '/zh/guide/official-plugins/bilibili-downloader',
+                },
+                {
+                  text: 'Electron 调试',
+                  link: '/zh/guide/official-plugins/electron-debug',
+                },
+                {
+                  text: 'Emoji',
+                  link: '/zh/guide/official-plugins/emoji',
+                },
+                {
+                  text: '手柄测试',
+                  link: '/zh/guide/official-plugins/gamepad',
+                },
+              ],
             },
           ],
         },
