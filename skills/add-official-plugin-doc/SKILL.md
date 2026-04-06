@@ -1,8 +1,6 @@
 ---
 name: add-official-plugin-doc
 description: Add an official plugin documentation page to tinker-docs from tinker-plugins.
-globs: ''
-alwaysApply: false
 ---
 
 # Add Official Plugin Documentation

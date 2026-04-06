@@ -66,12 +66,20 @@ export default defineConfig({
               link: '/guide/built-in-plugins/ai-assistant',
             },
             {
-              text: 'Base64',
-              link: '/guide/built-in-plugins/base64',
+              text: 'Audio Editor',
+              link: '/guide/built-in-plugins/audio-editor',
             },
             {
               text: 'Authenticator',
               link: '/guide/built-in-plugins/authenticator',
+            },
+            {
+              text: 'Base64',
+              link: '/guide/built-in-plugins/base64',
+            },
+            {
+              text: 'Audio Editor',
+              link: '/guide/built-in-plugins/audio-editor',
             },
           ],
         },
@@ -148,12 +156,16 @@ export default defineConfig({
                   link: '/zh/guide/built-in-plugins/ai-assistant',
                 },
                 {
-                  text: 'Base64',
-                  link: '/zh/guide/built-in-plugins/base64',
+                  text: '音频编辑',
+                  link: '/zh/guide/built-in-plugins/audio-editor',
                 },
                 {
                   text: '两步验证',
                   link: '/zh/guide/built-in-plugins/authenticator',
+                },
+                {
+                  text: 'Base64',
+                  link: '/zh/guide/built-in-plugins/base64',
                 },
               ],
             },

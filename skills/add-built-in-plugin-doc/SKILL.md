@@ -26,7 +26,7 @@ Since built-in plugins typically don't have a README, read the source code under
 Create `docs/guide/built-in-plugins/<name>.md` with:
 - Title: `# tinker-<name>`
 - One-sentence description linking to [TINKER](https://github.com/liriliri/tinker)
-- Screenshot: `![Screenshot](/<name>.png)` (referencing `docs/public/<name>.png`)
+- Screenshot: `![Screenshot](/<name_with_underscores>.png)` (referencing `docs/public/<name_with_underscores>.png`, use underscores instead of hyphens, e.g. `audio_editor.png`)
 - Features section with key capabilities (use `**bold** —` format)
 - Usage section with numbered steps
 
@@ -61,5 +61,6 @@ In `docs/.vitepress/config.mts`, add an entry to BOTH sidebar sections:
 - The sidebar item `text` MUST come from `package.json`: English uses `tinker.name`, Chinese uses `tinker.locales.zh-CN.name` (if it exists, otherwise fall back to `tinker.name`)
 - The file name under `built-in-plugins/` should be the plugin name without the `tinker-` prefix (e.g. `tinker-base64` → `base64.md`)
 - The sidebar category is `Built-in Plugins` (EN) / `内置插件` (ZH) with `collapsed: false`
-- Screenshot images use absolute path `/<name>.png` referencing files in `docs/public/`
+- Sidebar items MUST be sorted by plugin ID in alphabetical order (e.g. ai-assistant → audio-editor → authenticator → base64)
+- Screenshot images use absolute path `/<name_with_underscores>.png` referencing files in `docs/public/` (use underscores, e.g. `audio_editor.png`)
 - Documentation content is generated from source code analysis, not from a README
