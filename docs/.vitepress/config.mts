@@ -66,6 +66,10 @@ export default defineConfig({
               link: '/guide/built-in-plugins/ai-assistant',
             },
             {
+              text: 'AI Chat',
+              link: '/guide/built-in-plugins/ai-chat',
+            },
+            {
               text: 'Audio Editor',
               link: '/guide/built-in-plugins/audio-editor',
             },
@@ -78,8 +82,40 @@ export default defineConfig({
               link: '/guide/built-in-plugins/base64',
             },
             {
-              text: 'Audio Editor',
-              link: '/guide/built-in-plugins/audio-editor',
+              text: 'Calculation Pad',
+              link: '/guide/built-in-plugins/calculation-pad',
+            },
+            {
+              text: 'Calculator',
+              link: '/guide/built-in-plugins/calculator',
+            },
+            {
+              text: 'Calendar',
+              link: '/guide/built-in-plugins/calendar',
+            },
+            {
+              text: 'Calendar',
+              link: '/guide/built-in-plugins/calendar',
+            },
+            {
+              text: 'Camera',
+              link: '/guide/built-in-plugins/camera',
+            },
+            {
+              text: 'Clipboard',
+              link: '/guide/built-in-plugins/clipboard',
+            },
+            {
+              text: 'Clock',
+              link: '/guide/built-in-plugins/clock',
+            },
+            {
+              text: 'Code Formatter',
+              link: '/guide/built-in-plugins/code-formatter',
+            },
+            {
+              text: 'Code Image',
+              link: '/guide/built-in-plugins/code-image',
             },
           ],
         },
@@ -160,6 +196,10 @@ export default defineConfig({
                   link: '/zh/guide/built-in-plugins/ai-assistant',
                 },
                 {
+                  text: 'AI 聊天',
+                  link: '/zh/guide/built-in-plugins/ai-chat',
+                },
+                {
                   text: '音频编辑',
                   link: '/zh/guide/built-in-plugins/audio-editor',
                 },
@@ -170,6 +210,38 @@ export default defineConfig({
                 {
                   text: 'Base64',
                   link: '/zh/guide/built-in-plugins/base64',
+                },
+                {
+                  text: '计算稿纸',
+                  link: '/zh/guide/built-in-plugins/calculation-pad',
+                },
+                {
+                  text: '计算器',
+                  link: '/zh/guide/built-in-plugins/calculator',
+                },
+                {
+                  text: '日历',
+                  link: '/zh/guide/built-in-plugins/calendar',
+                },
+                {
+                  text: '相机',
+                  link: '/zh/guide/built-in-plugins/camera',
+                },
+                {
+                  text: '剪贴板',
+                  link: '/zh/guide/built-in-plugins/clipboard',
+                },
+                {
+                  text: '时钟',
+                  link: '/zh/guide/built-in-plugins/clock',
+                },
+                {
+                  text: '代码格式化',
+                  link: '/zh/guide/built-in-plugins/code-formatter',
+                },
+                {
+                  text: '代码图片',
+                  link: '/zh/guide/built-in-plugins/code-image',
                 },
               ],
             },
