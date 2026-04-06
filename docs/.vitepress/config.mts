@@ -47,6 +47,18 @@ export default defineConfig({
       },
     },
     logo,
+    sidebar: {
+      'guide/': [
+        {
+          text: 'Introduction',
+          link: '/guide/',
+        },
+        {
+          text: 'Quick Start',
+          link: '/guide/quickstart',
+        },
+      ],
+    },
     socialLinks: [
       kofi,
       wechatpay,
@@ -64,11 +76,27 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
+      themeConfig: {
+        nav: [{ text: 'Guide', link: '/guide/' }],
+      },
     },
     zh: {
       label: '中文',
       lang: 'zh',
       themeConfig: {
+        nav: [{ text: '指南', link: '/zh/guide/' }],
+        sidebar: {
+          'zh/guide/': [
+            {
+              text: '前言',
+              link: '/zh/guide/',
+            },
+            {
+              text: '快速开始',
+              link: '/zh/guide/quickstart',
+            },
+          ],
+        },
         outlineTitle: '在这一页上',
         editLink: {
           pattern: editLinkPattern,

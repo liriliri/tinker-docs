@@ -1,3 +1,9 @@
 [submodule "docs/.vitepress/share"]
 	path = docs/.vitepress/share
 	url = https://github.com/liriliri/docs-share.git
+[submodule "tinker"]
+	path = tinker
+	url = https://github.com/liriliri/tinker.git
+[submodule "tinker-plugins"]
+	path = tinker-plugins
+	url = https://github.com/liriliri/tinker-plugins.git
