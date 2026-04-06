@@ -147,6 +147,38 @@ export default defineConfig({
               text: 'GBA',
               link: '/guide/official-plugins/gba',
             },
+            {
+              text: 'Hanzi Converter',
+              link: '/guide/official-plugins/hanzi-converter',
+            },
+            {
+              text: 'NES',
+              link: '/guide/official-plugins/nes',
+            },
+            {
+              text: 'OCR',
+              link: '/guide/official-plugins/ocr',
+            },
+            {
+              text: 'Token Usage',
+              link: '/guide/official-plugins/token-usage',
+            },
+            {
+              text: 'Translate',
+              link: '/guide/official-plugins/translate',
+            },
+            {
+              text: 'Trending',
+              link: '/guide/official-plugins/trending',
+            },
+            {
+              text: 'Wallpaper',
+              link: '/guide/official-plugins/wallpaper',
+            },
+            {
+              text: 'White Noise',
+              link: '/guide/official-plugins/white-noise',
+            },
           ],
         },
       ],
@@ -272,6 +304,38 @@ export default defineConfig({
                 {
                   text: 'GBA',
                   link: '/zh/guide/official-plugins/gba',
+                },
+                {
+                  text: '汉字转换',
+                  link: '/zh/guide/official-plugins/hanzi-converter',
+                },
+                {
+                  text: '红白机',
+                  link: '/zh/guide/official-plugins/nes',
+                },
+                {
+                  text: 'OCR 识别',
+                  link: '/zh/guide/official-plugins/ocr',
+                },
+                {
+                  text: 'Token 统计',
+                  link: '/zh/guide/official-plugins/token-usage',
+                },
+                {
+                  text: '翻译',
+                  link: '/zh/guide/official-plugins/translate',
+                },
+                {
+                  text: '热搜榜',
+                  link: '/zh/guide/official-plugins/trending',
+                },
+                {
+                  text: '壁纸',
+                  link: '/zh/guide/official-plugins/wallpaper',
+                },
+                {
+                  text: '白噪音',
+                  link: '/zh/guide/official-plugins/white-noise',
                 },
               ],
             },
