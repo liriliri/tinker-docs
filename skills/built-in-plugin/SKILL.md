@@ -1,5 +1,5 @@
 ---
-name: builtin-plugin
+name: built-in-plugin
 description: Add a built-in plugin documentation page by reading source code from tinker/plugins.
 ---
 
