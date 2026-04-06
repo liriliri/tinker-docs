@@ -58,6 +58,24 @@ export default defineConfig({
           link: '/guide/quickstart',
         },
         {
+          text: 'Built-in Plugins',
+          collapsed: false,
+          items: [
+            {
+              text: 'AI Assistant',
+              link: '/guide/built-in-plugins/ai-assistant',
+            },
+            {
+              text: 'Base64',
+              link: '/guide/built-in-plugins/base64',
+            },
+            {
+              text: 'Authenticator',
+              link: '/guide/built-in-plugins/authenticator',
+            },
+          ],
+        },
+        {
           text: 'Official Plugins',
           collapsed: false,
           items: [
@@ -120,6 +138,24 @@ export default defineConfig({
             {
               text: '快速开始',
               link: '/zh/guide/quickstart',
+            },
+            {
+              text: '内置插件',
+              collapsed: false,
+              items: [
+                {
+                  text: 'AI 助手',
+                  link: '/zh/guide/built-in-plugins/ai-assistant',
+                },
+                {
+                  text: 'Base64',
+                  link: '/zh/guide/built-in-plugins/base64',
+                },
+                {
+                  text: '两步验证',
+                  link: '/zh/guide/built-in-plugins/authenticator',
+                },
+              ],
             },
             {
               text: '官方插件',
