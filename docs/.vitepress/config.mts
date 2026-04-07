@@ -117,6 +117,26 @@ export default defineConfig({
               text: 'Code Image',
               link: '/guide/built-in-plugins/code-image',
             },
+            {
+              text: 'Color',
+              link: '/guide/built-in-plugins/color',
+            },
+            {
+              text: 'Config Editor',
+              link: '/guide/built-in-plugins/config-editor',
+            },
+            {
+              text: 'Disk Usage',
+              link: '/guide/built-in-plugins/disk-usage',
+            },
+            {
+              text: 'Duplicate Cleaner',
+              link: '/guide/built-in-plugins/duplicate-cleaner',
+            },
+            {
+              text: 'Duplicate Cleaner',
+              link: '/guide/built-in-plugins/duplicate-cleaner',
+            },
           ],
         },
         {
@@ -274,6 +294,22 @@ export default defineConfig({
                 {
                   text: '代码图片',
                   link: '/zh/guide/built-in-plugins/code-image',
+                },
+                {
+                  text: '颜色',
+                  link: '/zh/guide/built-in-plugins/color',
+                },
+                {
+                  text: '配置编辑',
+                  link: '/zh/guide/built-in-plugins/config-editor',
+                },
+                {
+                  text: '磁盘空间分析',
+                  link: '/zh/guide/built-in-plugins/disk-usage',
+                },
+                {
+                  text: '重复文件清理',
+                  link: '/zh/guide/built-in-plugins/duplicate-cleaner',
                 },
               ],
             },
