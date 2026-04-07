@@ -1,0 +1,17 @@
+# tinker-jsoncrack
+
+JSON Crack plugin for [TINKER](https://github.com/liriliri/tinker).
+
+![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-third-party/master/packages/tinker-jsoncrack/screenshot.png)
+
+## About
+
+This plugin integrates [JSON Crack](https://github.com/AykutSarac/jsoncrack.com), a powerful JSON visualization tool, into TINKER. JSON Crack transforms JSON data into interactive graphs, making it easier to understand complex data structures, debug APIs, and explore JSON files with a visual tree or graph representation.
+
+## Installation
+
+Download and install [TINKER](https://tinker.liriliri.io/), then run:
+
+```bash
+npm i -g tinker-jsoncrack
+```

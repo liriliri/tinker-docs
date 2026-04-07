@@ -7,3 +7,6 @@
 [submodule "tinker-plugins"]
 	path = tinker-plugins
 	url = https://github.com/liriliri/tinker-plugins.git
+[submodule "tinker-third-party"]
+	path = tinker-third-party
+	url = https://github.com/liriliri/tinker-third-party.git

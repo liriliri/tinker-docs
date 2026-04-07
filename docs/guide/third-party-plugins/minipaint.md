@@ -1,0 +1,17 @@
+# tinker-minipaint
+
+miniPaint plugin for [TINKER](https://github.com/liriliri/tinker).
+
+![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-third-party/master/packages/tinker-minipaint/screenshot.png)
+
+## About
+
+This plugin integrates [miniPaint](https://github.com/viliusle/miniPaint), an online graphics editing tool that lets you create and edit images using HTML5 technologies. miniPaint offers a comprehensive set of features including layers, effects, and various drawing tools, making it perfect for image editing and graphic design directly in your browser.
+
+## Installation
+
+Download and install [TINKER](https://tinker.liriliri.io/), then run:
+
+```bash
+npm i -g tinker-minipaint
+```

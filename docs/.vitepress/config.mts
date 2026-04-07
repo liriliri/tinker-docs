@@ -341,6 +341,80 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: 'Third-Party Plugins',
+          collapsed: false,
+          items: [
+            {
+              text: 'AudioMass',
+              link: '/guide/third-party-plugins/audiomass',
+            },
+            {
+              text: 'Blockbench',
+              link: '/guide/third-party-plugins/blockbench',
+            },
+            {
+              text: 'Chili3D',
+              link: '/guide/third-party-plugins/chili3d',
+            },
+            {
+              text: 'Ctool',
+              link: '/guide/third-party-plugins/ctool',
+            },
+            {
+              text: 'DPaint',
+              link: '/guide/third-party-plugins/dpaint',
+            },
+            {
+              text: 'Draw.io',
+              link: '/guide/third-party-plugins/drawio',
+            },
+            {
+              text: 'Excalidraw',
+              link: '/guide/third-party-plugins/excalidraw',
+            },
+            {
+              text: 'Hoppscotch',
+              link: '/guide/third-party-plugins/hoppscotch',
+            },
+            {
+              text: 'JSON Crack',
+              link: '/guide/third-party-plugins/jsoncrack',
+            },
+            {
+              text: 'JSPaint',
+              link: '/guide/third-party-plugins/jspaint',
+            },
+            {
+              text: 'Klecks',
+              link: '/guide/third-party-plugins/klecks',
+            },
+            {
+              text: 'Method Draw',
+              link: '/guide/third-party-plugins/method-draw',
+            },
+            {
+              text: 'miniPaint',
+              link: '/guide/third-party-plugins/minipaint',
+            },
+            {
+              text: 'Motionity',
+              link: '/guide/third-party-plugins/motionity',
+            },
+            {
+              text: 'Piskel',
+              link: '/guide/third-party-plugins/piskel',
+            },
+            {
+              text: 'Regex Vis',
+              link: '/guide/third-party-plugins/regex-vis',
+            },
+            {
+              text: 'SVGEdit',
+              link: '/guide/third-party-plugins/svgedit',
+            },
+          ],
+        },
       ],
     },
     socialLinks: [
@@ -644,6 +718,80 @@ export default defineConfig({
                 {
                   text: '白噪音',
                   link: '/zh/guide/official-plugins/white-noise',
+                },
+              ],
+            },
+            {
+              text: '第三方插件',
+              collapsed: false,
+              items: [
+                {
+                  text: 'AudioMass',
+                  link: '/zh/guide/third-party-plugins/audiomass',
+                },
+                {
+                  text: 'Blockbench',
+                  link: '/zh/guide/third-party-plugins/blockbench',
+                },
+                {
+                  text: 'Chili3D',
+                  link: '/zh/guide/third-party-plugins/chili3d',
+                },
+                {
+                  text: 'Ctool',
+                  link: '/zh/guide/third-party-plugins/ctool',
+                },
+                {
+                  text: 'DPaint',
+                  link: '/zh/guide/third-party-plugins/dpaint',
+                },
+                {
+                  text: 'Draw.io',
+                  link: '/zh/guide/third-party-plugins/drawio',
+                },
+                {
+                  text: 'Excalidraw',
+                  link: '/zh/guide/third-party-plugins/excalidraw',
+                },
+                {
+                  text: 'Hoppscotch',
+                  link: '/zh/guide/third-party-plugins/hoppscotch',
+                },
+                {
+                  text: 'JSON Crack',
+                  link: '/zh/guide/third-party-plugins/jsoncrack',
+                },
+                {
+                  text: 'JSPaint',
+                  link: '/zh/guide/third-party-plugins/jspaint',
+                },
+                {
+                  text: 'Klecks',
+                  link: '/zh/guide/third-party-plugins/klecks',
+                },
+                {
+                  text: 'Method Draw',
+                  link: '/zh/guide/third-party-plugins/method-draw',
+                },
+                {
+                  text: 'miniPaint',
+                  link: '/zh/guide/third-party-plugins/minipaint',
+                },
+                {
+                  text: 'Motionity',
+                  link: '/zh/guide/third-party-plugins/motionity',
+                },
+                {
+                  text: 'Piskel',
+                  link: '/zh/guide/third-party-plugins/piskel',
+                },
+                {
+                  text: 'Regex Vis',
+                  link: '/zh/guide/third-party-plugins/regex-vis',
+                },
+                {
+                  text: 'SVGEdit',
+                  link: '/zh/guide/third-party-plugins/svgedit',
                 },
               ],
             },

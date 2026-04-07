@@ -1,0 +1,17 @@
+# tinker-method-draw
+
+Method Draw plugin for [TINKER](https://github.com/liriliri/tinker).
+
+![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-third-party/master/packages/tinker-method-draw/screenshot.png)
+
+## About
+
+This plugin integrates [Method Draw](https://github.com/methodofaction/Method-Draw), a web-based vector drawing application, into TINKER. Method Draw provides a simple and easy-to-use SVG editor experience. It purposely removes some features such as layers and line-caps/corners in exchange for a more streamlined and pleasant drawing experience, making it perfect for quick vector graphics creation and editing.
+
+## Installation
+
+Download and install [TINKER](https://tinker.liriliri.io/), then run:
+
+```bash
+npm i -g tinker-method-draw
+```
