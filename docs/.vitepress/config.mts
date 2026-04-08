@@ -94,10 +94,6 @@ export default defineConfig({
               link: '/guide/built-in-plugins/calendar',
             },
             {
-              text: 'Calendar',
-              link: '/guide/built-in-plugins/calendar',
-            },
-            {
               text: 'Camera',
               link: '/guide/built-in-plugins/camera',
             },
@@ -128,10 +124,6 @@ export default defineConfig({
             {
               text: 'Disk Usage',
               link: '/guide/built-in-plugins/disk-usage',
-            },
-            {
-              text: 'Duplicate Cleaner',
-              link: '/guide/built-in-plugins/duplicate-cleaner',
             },
             {
               text: 'Duplicate Cleaner',
@@ -222,10 +214,6 @@ export default defineConfig({
               link: '/guide/built-in-plugins/renamer',
             },
             {
-              text: 'Renamer',
-              link: '/guide/built-in-plugins/renamer',
-            },
-            {
               text: 'RegExp',
               link: '/guide/built-in-plugins/regexp',
             },
@@ -268,10 +256,6 @@ export default defineConfig({
             {
               text: 'Voice Recorder',
               link: '/guide/built-in-plugins/voice-recorder',
-            },
-            {
-              text: 'Whiteboard',
-              link: '/guide/built-in-plugins/whiteboard',
             },
             {
               text: 'Whiteboard',
