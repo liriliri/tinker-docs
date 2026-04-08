@@ -38,9 +38,9 @@ Create `docs/zh/guide/built-in-plugins/<name>.md` with the same structure transl
 
 ## 4. Update sidebar config
 
-In `docs/.vitepress/config.mts`, add an entry to BOTH sidebar sections:
+In `docs/.vitepress/sidebar.mts`, add an entry to BOTH sidebar arrays:
 
-- English sidebar (`'guide/'` → `Built-in Plugins` items array):
+- English sidebar (`enSidebar` → `Built-in Plugins` items array):
   ```js
   {
     text: '<tinker.name value>',
@@ -48,7 +48,7 @@ In `docs/.vitepress/config.mts`, add an entry to BOTH sidebar sections:
   },
   ```
 
-- Chinese sidebar (`'zh/guide/'` → `内置插件` items array):
+- Chinese sidebar (`zhSidebar` → `内置插件` items array):
   ```js
   {
     text: '<tinker.locales.zh-CN.name value>',

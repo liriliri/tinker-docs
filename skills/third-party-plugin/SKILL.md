@@ -25,9 +25,9 @@ Create `docs/zh/guide/third-party-plugins/<name>.md` with the README content tra
 
 ## 4. Update sidebar config
 
-In `docs/.vitepress/config.mts`, add an entry to BOTH sidebar sections:
+In `docs/.vitepress/sidebar.mts`, add an entry to BOTH sidebar arrays:
 
-- English sidebar (`'guide/'` → `Third-Party Plugins` items array):
+- English sidebar (`enSidebar` → `Third-Party Plugins` items array):
   ```js
   {
     text: '<tinker.name value>',
@@ -35,7 +35,7 @@ In `docs/.vitepress/config.mts`, add an entry to BOTH sidebar sections:
   },
   ```
 
-- Chinese sidebar (`'zh/guide/'` → `第三方插件` items array):
+- Chinese sidebar (`zhSidebar` → `第三方插件` items array):
   ```js
   {
     text: '<tinker.locales.zh-CN.name value>',
