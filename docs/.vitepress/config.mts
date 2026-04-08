@@ -284,6 +284,10 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
+              text: 'Background Remover',
+              link: '/guide/official-plugins/bg-remover',
+            },
+            {
               text: 'WHOIS',
               link: '/guide/official-plugins/whois',
             },
@@ -663,6 +667,10 @@ export default defineConfig({
               text: '官方插件',
               collapsed: false,
               items: [
+                {
+                  text: '抠图',
+                  link: '/zh/guide/official-plugins/bg-remover',
+                },
                 {
                   text: 'WHOIS 查询',
                   link: '/zh/guide/official-plugins/whois',

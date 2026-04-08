@@ -1,0 +1,28 @@
+# tinker-bg-remover
+
+A background removal plugin for [TINKER](https://github.com/liriliri/tinker), powered by [@imgly/background-removal-node](https://github.com/nicojones/background-removal-js).
+
+![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-bg-remover/screenshot.png)
+
+## Features
+
+- **Local Processing** — No cloud dependency, all processing done locally
+- **Model Selection** — Choose between Small and Medium model sizes
+- **Drag & Drop** — Load images via drag & drop or file picker
+- **PNG Export** — Save transparent results as PNG
+- **i18n** — Supports English and Chinese
+
+## Installation
+
+Download and install [TINKER](https://tinker.liriliri.io/), then run:
+
+```bash
+npm i -g tinker-bg-remover
+```
+
+## Usage
+
+1. Open an image via drag & drop or the folder button
+2. Select model size (Small or Medium)
+3. Click **Remove Background**
+4. Save the result as PNG
