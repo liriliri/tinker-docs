@@ -8,7 +8,7 @@ import {
   shareAlias,
   googleAnalytics,
 } from './share/config.mjs'
-import { enSidebar, zhSidebar } from './sidebar'
+import { enSidebar, zhSidebar } from './sidebar.mjs'
 
 const editLinkPattern =
   'https://github.com/liriliri/tinker-docs/edit/master/docs/:path'
