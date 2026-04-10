@@ -5,7 +5,7 @@ description: Add an official plugin documentation page to tinker-docs from tinke
 
 # Add Official Plugin Documentation
 
-When the user asks to add a plugin doc (e.g. "把 xxx 也添加下", "add xxx plugin doc"), follow these steps:
+When the user asks to add a plugin doc (e.g. "add xxx plugin doc"), follow these steps:
 
 ## 1. Read plugin info
 

@@ -1,11 +1,11 @@
 ---
 name: third-party-plugin
-description: Add a third-party plugin documentation page to tinker-docs from tinker-third-party.
+description: Add or update a third-party plugin documentation page in tinker-docs from tinker-third-party.
 ---
 
-# Add Third-Party Plugin Documentation
+# Add or Update Third-Party Plugin Documentation
 
-When the user asks to add a plugin doc (e.g. "把 xxx 也添加下", "add xxx plugin doc"), follow these steps:
+When the user asks to add or update a plugin doc (e.g. "add xxx plugin doc", "update xxx readme"), follow these steps:
 
 ## 1. Read plugin info
 
@@ -15,17 +15,17 @@ Read the plugin's `package.json` from `tinker-third-party/packages/tinker-<name>
 
 Read the plugin's `README.md` from `tinker-third-party/packages/tinker-<name>/README.md` for content.
 
-## 2. Create English doc
+## 2. Create or update English doc
 
-Create `docs/guide/third-party-plugins/<name>.md` based on the README content. Adjust install section to use a link to TINKER and a code block for the npm command.
+Create or update `docs/guide/third-party-plugins/<name>.md` based on the README content. Adjust install section to use a link to TINKER and a code block for the npm command.
 
-## 3. Create Chinese doc
+## 3. Create or update Chinese doc
 
-Create `docs/zh/guide/third-party-plugins/<name>.md` with the README content translated to Chinese. Keep technical terms (e.g. Chrome DevTools, WHOIS, npm) untranslated.
+Create or update `docs/zh/guide/third-party-plugins/<name>.md` with the README content translated to Chinese. Keep technical terms (e.g. Chrome DevTools, WHOIS, npm) untranslated.
 
-## 4. Update sidebar config
+## 4. Update sidebar config (add only)
 
-In `docs/.vitepress/sidebar.mts`, add an entry to BOTH sidebar arrays:
+If the plugin is new (not already in the sidebar), add an entry in `docs/.vitepress/sidebar.mts` to BOTH sidebar arrays:
 
 - English sidebar (`enSidebar` → `Third-Party Plugins` items array):
   ```js

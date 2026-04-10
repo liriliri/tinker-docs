@@ -5,7 +5,7 @@ description: Add a built-in plugin documentation page by reading source code fro
 
 # Add Built-in Plugin Documentation
 
-When the user asks to add a built-in plugin doc (e.g. "添加内置插件 xxx 的文档", "add built-in plugin xxx doc"), follow these steps:
+When the user asks to add a built-in plugin doc (e.g. "add built-in plugin xxx doc"), follow these steps:
 
 ## 1. Read plugin info
 
