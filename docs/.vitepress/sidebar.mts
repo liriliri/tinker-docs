@@ -238,6 +238,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/emoji',
       },
       {
+        text: 'Currency Exchange',
+        link: '/guide/official-plugins/exchange',
+      },
+      {
         text: 'Gamepad',
         link: '/guide/official-plugins/gamepad',
       },
@@ -597,6 +601,10 @@ export const zhSidebar = [
       {
         text: 'Emoji',
         link: '/zh/guide/official-plugins/emoji',
+      },
+      {
+        text: '汇率换算',
+        link: '/zh/guide/official-plugins/exchange',
       },
       {
         text: '手柄测试',
