@@ -270,6 +270,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/trending',
       },
       {
+        text: 'Video Converter',
+        link: '/guide/official-plugins/video-converter',
+      },
+      {
         text: 'Wallpaper',
         link: '/guide/official-plugins/wallpaper',
       },
@@ -625,6 +629,10 @@ export const zhSidebar = [
       {
         text: '热搜榜',
         link: '/zh/guide/official-plugins/trending',
+      },
+      {
+        text: '视频转换',
+        link: '/zh/guide/official-plugins/video-converter',
       },
       {
         text: '壁纸',
