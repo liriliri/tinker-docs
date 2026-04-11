@@ -1,11 +1,11 @@
 ---
 name: official-plugin
-description: Add an official plugin documentation page to tinker-docs from tinker-plugins.
+description: Add or update an official plugin documentation page to tinker-docs from tinker-plugins.
 ---
 
-# Add Official Plugin Documentation
+# Add or Update Official Plugin Documentation
 
-When the user asks to add a plugin doc (e.g. "add xxx plugin doc"), follow these steps:
+When the user asks to add or update a plugin doc (e.g. "add xxx plugin doc", "update xxx readme"), follow these steps:
 
 ## 1. Read plugin info
 
@@ -15,17 +15,17 @@ Read the plugin's `package.json` from `tinker-plugins/packages/tinker-<name>/pac
 
 Read the plugin's `README.md` from `tinker-plugins/packages/tinker-<name>/README.md` for content.
 
-## 2. Create English doc
+## 2. Create or update English doc
 
-Create `docs/guide/official-plugins/<name>.md` based on the README content. Adjust install section to use a link to TINKER and a code block for the npm command.
+Create or update `docs/guide/official-plugins/<name>.md` based on the README content. Adjust install section to use a link to TINKER and a code block for the npm command.
 
-## 3. Create Chinese doc
+## 3. Create or update Chinese doc
 
-Create `docs/zh/guide/official-plugins/<name>.md` with the README content translated to Chinese. Keep technical terms (e.g. Chrome DevTools, WHOIS, npm) untranslated.
+Create or update `docs/zh/guide/official-plugins/<name>.md` with the README content translated to Chinese. Keep technical terms (e.g. Chrome DevTools, WHOIS, npm) untranslated.
 
-## 4. Update sidebar config
+## 4. Update sidebar config (add only)
 
-In `docs/.vitepress/sidebar.mts`, add an entry to BOTH sidebar arrays:
+If the plugin is new (not already in the sidebar), add an entry in `docs/.vitepress/sidebar.mts` to BOTH sidebar arrays:
 
 - English sidebar (`enSidebar` → `Official Plugins` items array):
   ```js

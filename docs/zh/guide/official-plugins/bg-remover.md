@@ -1,6 +1,6 @@
 # tinker-bg-remover
 
-基于 [@imgly/background-removal-node](https://github.com/nicojones/background-removal-js) 的 [TINKER](https://github.com/liriliri/tinker) 背景去除插件。
+基于 [@imgly/background-removal-node](https://github.com/imgly/background-removal-js) 的 [TINKER](https://github.com/liriliri/tinker) 背景去除插件。
 
 ![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-bg-remover/screenshot.png)
 
