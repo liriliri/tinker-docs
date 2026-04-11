@@ -282,6 +282,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/wallpaper',
       },
       {
+        text: 'Weather',
+        link: '/guide/official-plugins/weather',
+      },
+      {
         text: 'White Noise',
         link: '/guide/official-plugins/white-noise',
       },
@@ -645,6 +649,10 @@ export const zhSidebar = [
       {
         text: '壁纸',
         link: '/zh/guide/official-plugins/wallpaper',
+      },
+      {
+        text: '天气',
+        link: '/zh/guide/official-plugins/weather',
       },
       {
         text: '白噪音',
