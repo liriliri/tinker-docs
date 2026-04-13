@@ -112,6 +112,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/json-editor',
       },
       {
+        text: 'Large File Cleaner',
+        link: '/guide/built-in-plugins/large-file',
+      },
+      {
         text: 'Markdown Editor',
         link: '/guide/built-in-plugins/markdown-editor',
       },
@@ -252,6 +256,10 @@ export const enSidebar = [
       {
         text: 'Hanzi Converter',
         link: '/guide/official-plugins/hanzi-converter',
+      },
+      {
+        text: 'Map',
+        link: '/guide/official-plugins/map',
       },
       {
         text: 'NES',
@@ -481,6 +489,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/json-editor',
       },
       {
+        text: '大文件清理',
+        link: '/zh/guide/built-in-plugins/large-file',
+      },
+      {
         text: 'Markdown 编辑',
         link: '/zh/guide/built-in-plugins/markdown-editor',
       },
@@ -621,6 +633,10 @@ export const zhSidebar = [
       {
         text: '汉字转换',
         link: '/zh/guide/official-plugins/hanzi-converter',
+      },
+      {
+        text: '地图',
+        link: '/zh/guide/official-plugins/map',
       },
       {
         text: '红白机',
