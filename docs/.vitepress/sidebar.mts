@@ -176,6 +176,14 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/rss-reader',
       },
       {
+        text: 'Stickies',
+        link: '/guide/built-in-plugins/stickies',
+      },
+      {
+        text: 'Stickies',
+        link: '/guide/built-in-plugins/stickies',
+      },
+      {
         text: 'System Info',
         link: '/guide/built-in-plugins/system-info',
       },
@@ -551,6 +559,10 @@ export const zhSidebar = [
       {
         text: 'RSS 阅读',
         link: '/zh/guide/built-in-plugins/rss-reader',
+      },
+      {
+        text: '便签',
+        link: '/zh/guide/built-in-plugins/stickies',
       },
       {
         text: '系统信息',
