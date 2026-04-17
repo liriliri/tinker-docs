@@ -242,6 +242,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/bilibili-downloader',
       },
       {
+        text: 'Clipboard Sync',
+        link: '/guide/official-plugins/clipboard-sync',
+      },
+      {
         text: 'Electron Debug',
         link: '/guide/official-plugins/electron-debug',
       },
@@ -621,6 +625,10 @@ export const zhSidebar = [
       {
         text: 'B站视频下载',
         link: '/zh/guide/official-plugins/bilibili-downloader',
+      },
+      {
+        text: '剪贴板同步',
+        link: '/zh/guide/official-plugins/clipboard-sync',
       },
       {
         text: 'Electron 调试',
