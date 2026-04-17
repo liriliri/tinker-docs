@@ -180,10 +180,6 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/stickies',
       },
       {
-        text: 'Stickies',
-        link: '/guide/built-in-plugins/stickies',
-      },
-      {
         text: 'System Info',
         link: '/guide/built-in-plugins/system-info',
       },
