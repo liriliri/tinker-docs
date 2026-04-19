@@ -32,6 +32,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/base64',
       },
       {
+        text: 'Browser',
+        link: '/guide/built-in-plugins/browser',
+      },
+      {
         text: 'Calculation Pad',
         link: '/guide/built-in-plugins/calculation-pad',
       },
@@ -74,6 +78,10 @@ export const enSidebar = [
       {
         text: 'Disk Usage',
         link: '/guide/built-in-plugins/disk-usage',
+      },
+      {
+        text: 'Downloader',
+        link: '/guide/built-in-plugins/downloader',
       },
       {
         text: 'Duplicate Cleaner',
@@ -417,6 +425,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/base64',
       },
       {
+        text: '浏览器',
+        link: '/zh/guide/built-in-plugins/browser',
+      },
+      {
         text: '计算稿纸',
         link: '/zh/guide/built-in-plugins/calculation-pad',
       },
@@ -459,6 +471,10 @@ export const zhSidebar = [
       {
         text: '磁盘空间分析',
         link: '/zh/guide/built-in-plugins/disk-usage',
+      },
+      {
+        text: '下载器',
+        link: '/zh/guide/built-in-plugins/downloader',
       },
       {
         text: '重复文件清理',
