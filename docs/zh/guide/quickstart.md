@@ -2,7 +2,7 @@
 
 ## 安装
 
-TINKER 支持 [Windows x64](https://release.liriliri.io/tinker/TINKER-1.10.0-win-x64.exe)、[macOS Apple silicon](https://release.liriliri.io/tinker/TINKER-1.10.0-mac-arm64.dmg)、[macOS Intel chip](https://release.liriliri.io/tinker/TINKER-1.10.0-mac-x64.dmg) 和 [Linux](https://release.liriliri.io/tinker/TINKER-1.10.0-linux-x86_64.AppImage) 平台，下载安装后直接点击桌面图标开始使用。
+TINKER 支持 [Windows x64](https://release.liriliri.io/tinker/TINKER-1.11.0-win-x64.exe)、[macOS Apple silicon](https://release.liriliri.io/tinker/TINKER-1.11.0-mac-arm64.dmg)、[macOS Intel chip](https://release.liriliri.io/tinker/TINKER-1.11.0-mac-x64.dmg) 和 [Linux](https://release.liriliri.io/tinker/TINKER-1.11.0-linux-x86_64.AppImage) 平台，下载安装后直接点击桌面图标开始使用。
 
 ## 基本用法
 
