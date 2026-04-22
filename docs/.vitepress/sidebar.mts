@@ -274,6 +274,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/hanzi-converter',
       },
       {
+        text: 'JS13K Games',
+        link: '/guide/official-plugins/js13k',
+      },
+      {
         text: 'Map',
         link: '/guide/official-plugins/map',
       },
@@ -665,6 +669,10 @@ export const zhSidebar = [
       {
         text: '汉字转换',
         link: '/zh/guide/official-plugins/hanzi-converter',
+      },
+      {
+        text: 'JS13K 游戏',
+        link: '/zh/guide/official-plugins/js13k',
       },
       {
         text: '地图',
