@@ -278,6 +278,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/js13k',
       },
       {
+        text: 'Lunar Calendar',
+        link: '/guide/official-plugins/lunar-calendar',
+      },
+      {
         text: 'Map',
         link: '/guide/official-plugins/map',
       },
@@ -673,6 +677,10 @@ export const zhSidebar = [
       {
         text: 'JS13K 游戏',
         link: '/zh/guide/official-plugins/js13k',
+      },
+      {
+        text: '万年历',
+        link: '/zh/guide/official-plugins/lunar-calendar',
       },
       {
         text: '地图',
