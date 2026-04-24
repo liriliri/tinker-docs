@@ -250,6 +250,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/clipboard-sync',
       },
       {
+        text: 'Dictionary',
+        link: '/guide/official-plugins/dictionary',
+      },
+      {
         text: 'Electron Debug',
         link: '/guide/official-plugins/electron-debug',
       },
@@ -649,6 +653,10 @@ export const zhSidebar = [
       {
         text: '剪贴板同步',
         link: '/zh/guide/official-plugins/clipboard-sync',
+      },
+      {
+        text: '词典',
+        link: '/zh/guide/official-plugins/dictionary',
       },
       {
         text: 'Electron 调试',
