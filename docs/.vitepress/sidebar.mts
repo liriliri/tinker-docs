@@ -310,6 +310,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/trending',
       },
       {
+        text: 'Typing Test',
+        link: '/guide/official-plugins/typing-test',
+      },
+      {
         text: 'Video Converter',
         link: '/guide/official-plugins/video-converter',
       },
@@ -713,6 +717,10 @@ export const zhSidebar = [
       {
         text: '热搜榜',
         link: '/zh/guide/official-plugins/trending',
+      },
+      {
+        text: '打字测速',
+        link: '/zh/guide/official-plugins/typing-test',
       },
       {
         text: '视频转换',
