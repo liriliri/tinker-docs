@@ -234,6 +234,10 @@ export const enSidebar = [
     collapsed: false,
     items: [
       {
+        text: 'Agent Notification',
+        link: '/guide/official-plugins/agent-notification',
+      },
+      {
         text: 'Background Remover',
         link: '/guide/official-plugins/bg-remover',
       },
@@ -642,6 +646,10 @@ export const zhSidebar = [
     text: '官方插件',
     collapsed: false,
     items: [
+      {
+        text: 'Agent 提示音',
+        link: '/zh/guide/official-plugins/agent-notification',
+      },
       {
         text: '抠图',
         link: '/zh/guide/official-plugins/bg-remover',
