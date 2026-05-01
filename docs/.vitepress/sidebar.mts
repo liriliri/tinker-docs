@@ -286,6 +286,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/js13k',
       },
       {
+        text: 'Life Progress',
+        link: '/guide/official-plugins/life-progress',
+      },
+      {
         text: 'Lunar Calendar',
         link: '/guide/official-plugins/lunar-calendar',
       },
@@ -697,6 +701,10 @@ export const zhSidebar = [
       {
         text: 'JS13K 游戏',
         link: '/zh/guide/official-plugins/js13k',
+      },
+      {
+        text: '人生进度',
+        link: '/zh/guide/official-plugins/life-progress',
       },
       {
         text: '万年历',
