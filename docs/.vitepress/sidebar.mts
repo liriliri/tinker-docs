@@ -400,6 +400,10 @@ export const enSidebar = [
         link: '/guide/third-party-plugins/motionity',
       },
       {
+        text: 'Online 3D Viewer',
+        link: '/guide/third-party-plugins/online3dviewer',
+      },
+      {
         text: 'Piskel',
         link: '/guide/third-party-plugins/piskel',
       },
@@ -815,6 +819,10 @@ export const zhSidebar = [
       {
         text: 'Motionity',
         link: '/zh/guide/third-party-plugins/motionity',
+      },
+      {
+        text: 'Online 3D Viewer',
+        link: '/zh/guide/third-party-plugins/online3dviewer',
       },
       {
         text: 'Piskel',
