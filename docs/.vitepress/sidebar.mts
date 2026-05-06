@@ -52,6 +52,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/camera',
       },
       {
+        text: 'System Cleaner',
+        link: '/guide/built-in-plugins/cleaner',
+      },
+      {
         text: 'Clipboard',
         link: '/guide/built-in-plugins/clipboard',
       },
@@ -86,6 +90,10 @@ export const enSidebar = [
       {
         text: 'Duplicate Cleaner',
         link: '/guide/built-in-plugins/duplicate-cleaner',
+      },
+      {
+        text: 'Float',
+        link: '/guide/built-in-plugins/float',
       },
       {
         text: 'Hash',
@@ -473,6 +481,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/camera',
       },
       {
+        text: '垃圾清理',
+        link: '/zh/guide/built-in-plugins/cleaner',
+      },
+      {
         text: '剪贴板',
         link: '/zh/guide/built-in-plugins/clipboard',
       },
@@ -507,6 +519,10 @@ export const zhSidebar = [
       {
         text: '重复文件清理',
         link: '/zh/guide/built-in-plugins/duplicate-cleaner',
+      },
+      {
+        text: '悬浮',
+        link: '/zh/guide/built-in-plugins/float',
       },
       {
         text: '哈希计算',
