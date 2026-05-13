@@ -92,6 +92,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/duplicate-cleaner',
       },
       {
+        text: 'File Search',
+        link: '/guide/built-in-plugins/file-search',
+      },
+      {
         text: 'Float',
         link: '/guide/built-in-plugins/float',
       },
@@ -519,6 +523,10 @@ export const zhSidebar = [
       {
         text: '重复文件清理',
         link: '/zh/guide/built-in-plugins/duplicate-cleaner',
+      },
+      {
+        text: '文件搜索',
+        link: '/zh/guide/built-in-plugins/file-search',
       },
       {
         text: '悬浮',
