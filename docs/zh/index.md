@@ -6,7 +6,7 @@ title: 为所有人打造的工具箱
 import AppHome from '@share/components/AppHome.vue'
 import code from '@theme/lib/code'
 
-const version = "1.14.0"
+const version = "1.15.0"
 
 const downloads = [
   {
@@ -28,10 +28,16 @@ const downloads = [
     href: `https://release.liriliri.io/tinker/TINKER-${version}-mac-x64.dmg`,
   },
   {
-    key: 'linux',
-    name: 'Linux',
-    ext: '.AppImage',
-    href: `https://release.liriliri.io/tinker/TINKER-${version}-linux-x86_64.AppImage`,
+    key: 'linux_deb',
+    name: 'Linux DEB',
+    ext: '.deb',
+    href: `https://release.liriliri.io/tinker/TINKER-${version}-linux-amd64.deb`,
+  },
+  {
+    key: 'linux_rpm',
+    name: 'Linux RPM',
+    ext: '.rpm',
+    href: `https://release.liriliri.io/tinker/TINKER-${version}-linux-x86_64.rpm`,
   }
 ]
 
