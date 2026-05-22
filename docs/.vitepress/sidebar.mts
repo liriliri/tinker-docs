@@ -152,6 +152,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/mind-map',
       },
       {
+        text: 'Music Player',
+        link: '/guide/built-in-plugins/music-player',
+      },
+      {
         text: 'Notepad',
         link: '/guide/built-in-plugins/notepad',
       },
@@ -583,6 +587,10 @@ export const zhSidebar = [
       {
         text: '思维导图',
         link: '/zh/guide/built-in-plugins/mind-map',
+      },
+      {
+        text: '音乐播放',
+        link: '/zh/guide/built-in-plugins/music-player',
       },
       {
         text: '记事本',
