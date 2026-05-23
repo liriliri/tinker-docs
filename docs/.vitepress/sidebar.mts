@@ -13,235 +13,235 @@ export const enSidebar = [
     items: [
       {
         text: 'AI Assistant',
-        link: '/guide/built-in-plugins/ai-assistant',
+        link: '/guide/builtin-plugins/ai-assistant',
       },
       {
         text: 'AI Chat',
-        link: '/guide/built-in-plugins/ai-chat',
+        link: '/guide/builtin-plugins/ai-chat',
       },
       {
         text: 'Audio Editor',
-        link: '/guide/built-in-plugins/audio-editor',
+        link: '/guide/builtin-plugins/audio-editor',
       },
       {
         text: 'Authenticator',
-        link: '/guide/built-in-plugins/authenticator',
+        link: '/guide/builtin-plugins/authenticator',
       },
       {
         text: 'Base64',
-        link: '/guide/built-in-plugins/base64',
+        link: '/guide/builtin-plugins/base64',
       },
       {
         text: 'Browser',
-        link: '/guide/built-in-plugins/browser',
+        link: '/guide/builtin-plugins/browser',
       },
       {
         text: 'Calculation Pad',
-        link: '/guide/built-in-plugins/calculation-pad',
+        link: '/guide/builtin-plugins/calculation-pad',
       },
       {
         text: 'Calculator',
-        link: '/guide/built-in-plugins/calculator',
+        link: '/guide/builtin-plugins/calculator',
       },
       {
         text: 'Calendar',
-        link: '/guide/built-in-plugins/calendar',
+        link: '/guide/builtin-plugins/calendar',
       },
       {
         text: 'Camera',
-        link: '/guide/built-in-plugins/camera',
+        link: '/guide/builtin-plugins/camera',
       },
       {
         text: 'System Cleaner',
-        link: '/guide/built-in-plugins/cleaner',
+        link: '/guide/builtin-plugins/cleaner',
       },
       {
         text: 'Clipboard',
-        link: '/guide/built-in-plugins/clipboard',
+        link: '/guide/builtin-plugins/clipboard',
       },
       {
         text: 'Clock',
-        link: '/guide/built-in-plugins/clock',
+        link: '/guide/builtin-plugins/clock',
       },
       {
         text: 'Code Formatter',
-        link: '/guide/built-in-plugins/code-formatter',
+        link: '/guide/builtin-plugins/code-formatter',
       },
       {
         text: 'Code Image',
-        link: '/guide/built-in-plugins/code-image',
+        link: '/guide/builtin-plugins/code-image',
       },
       {
         text: 'Color',
-        link: '/guide/built-in-plugins/color',
+        link: '/guide/builtin-plugins/color',
       },
       {
         text: 'Config Editor',
-        link: '/guide/built-in-plugins/config-editor',
+        link: '/guide/builtin-plugins/config-editor',
       },
       {
         text: 'Disk Usage',
-        link: '/guide/built-in-plugins/disk-usage',
+        link: '/guide/builtin-plugins/disk-usage',
       },
       {
         text: 'Downloader',
-        link: '/guide/built-in-plugins/downloader',
+        link: '/guide/builtin-plugins/downloader',
       },
       {
         text: 'Duplicate Cleaner',
-        link: '/guide/built-in-plugins/duplicate-cleaner',
+        link: '/guide/builtin-plugins/duplicate-cleaner',
       },
       {
         text: 'File Search',
-        link: '/guide/built-in-plugins/file-search',
+        link: '/guide/builtin-plugins/file-search',
       },
       {
         text: 'Float',
-        link: '/guide/built-in-plugins/float',
+        link: '/guide/builtin-plugins/float',
       },
       {
         text: 'Hash',
-        link: '/guide/built-in-plugins/hash',
+        link: '/guide/builtin-plugins/hash',
       },
       {
         text: 'Hex Editor',
-        link: '/guide/built-in-plugins/hex-editor',
+        link: '/guide/builtin-plugins/hex-editor',
       },
       {
         text: 'Switch Hosts',
-        link: '/guide/built-in-plugins/hosts',
+        link: '/guide/builtin-plugins/hosts',
       },
       {
         text: 'HTTP Request',
-        link: '/guide/built-in-plugins/http-request',
+        link: '/guide/builtin-plugins/http-request',
       },
       {
         text: 'Image Annotator',
-        link: '/guide/built-in-plugins/image-annotator',
+        link: '/guide/builtin-plugins/image-annotator',
       },
       {
         text: 'Image Compressor',
-        link: '/guide/built-in-plugins/image-compressor',
+        link: '/guide/builtin-plugins/image-compressor',
       },
       {
         text: 'Image Cropper',
-        link: '/guide/built-in-plugins/image-cropper',
+        link: '/guide/builtin-plugins/image-cropper',
       },
       {
         text: 'JSON Editor',
-        link: '/guide/built-in-plugins/json-editor',
+        link: '/guide/builtin-plugins/json-editor',
       },
       {
         text: 'Large File Cleaner',
-        link: '/guide/built-in-plugins/large-file',
+        link: '/guide/builtin-plugins/large-file',
       },
       {
         text: 'Markdown Editor',
-        link: '/guide/built-in-plugins/markdown-editor',
+        link: '/guide/builtin-plugins/markdown-editor',
       },
       {
         text: 'Media Compressor',
-        link: '/guide/built-in-plugins/media-compressor',
+        link: '/guide/builtin-plugins/media-compressor',
       },
       {
         text: 'Media Converter',
-        link: '/guide/built-in-plugins/media-converter',
+        link: '/guide/builtin-plugins/media-converter',
       },
       {
         text: 'Mind Map',
-        link: '/guide/built-in-plugins/mind-map',
+        link: '/guide/builtin-plugins/mind-map',
       },
       {
         text: 'Music Player',
-        link: '/guide/built-in-plugins/music-player',
+        link: '/guide/builtin-plugins/music-player',
       },
       {
         text: 'Notepad',
-        link: '/guide/built-in-plugins/notepad',
+        link: '/guide/builtin-plugins/notepad',
       },
       {
         text: 'Password Generator',
-        link: '/guide/built-in-plugins/password-generator',
+        link: '/guide/builtin-plugins/password-generator',
       },
       {
         text: 'Password Manager',
-        link: '/guide/built-in-plugins/password-manager',
+        link: '/guide/builtin-plugins/password-manager',
       },
       {
         text: 'PDF',
-        link: '/guide/built-in-plugins/pdf',
+        link: '/guide/builtin-plugins/pdf',
       },
       {
         text: 'Photo Collage',
-        link: '/guide/built-in-plugins/photo-collage',
+        link: '/guide/builtin-plugins/photo-collage',
       },
       {
         text: 'Pomodoro',
-        link: '/guide/built-in-plugins/pomodoro',
+        link: '/guide/builtin-plugins/pomodoro',
       },
       {
         text: 'Process Killer',
-        link: '/guide/built-in-plugins/process-killer',
+        link: '/guide/builtin-plugins/process-killer',
       },
       {
         text: 'QR Code',
-        link: '/guide/built-in-plugins/qrcode',
+        link: '/guide/builtin-plugins/qrcode',
       },
       {
         text: 'Renamer',
-        link: '/guide/built-in-plugins/renamer',
+        link: '/guide/builtin-plugins/renamer',
       },
       {
         text: 'RegExp',
-        link: '/guide/built-in-plugins/regexp',
+        link: '/guide/builtin-plugins/regexp',
       },
       {
         text: 'RSS Reader',
-        link: '/guide/built-in-plugins/rss-reader',
+        link: '/guide/builtin-plugins/rss-reader',
       },
       {
         text: 'Stickies',
-        link: '/guide/built-in-plugins/stickies',
+        link: '/guide/builtin-plugins/stickies',
       },
       {
         text: 'System Info',
-        link: '/guide/built-in-plugins/system-info',
+        link: '/guide/builtin-plugins/system-info',
       },
       {
         text: 'Text Diff',
-        link: '/guide/built-in-plugins/text-diff',
+        link: '/guide/builtin-plugins/text-diff',
       },
       {
         text: 'Text Encoder',
-        link: '/guide/built-in-plugins/text-encoder',
+        link: '/guide/builtin-plugins/text-encoder',
       },
       {
         text: 'Timer',
-        link: '/guide/built-in-plugins/timer',
+        link: '/guide/builtin-plugins/timer',
       },
       {
         text: 'Timestamp Converter',
-        link: '/guide/built-in-plugins/timestamp',
+        link: '/guide/builtin-plugins/timestamp',
       },
       {
         text: 'Todo',
-        link: '/guide/built-in-plugins/todo',
+        link: '/guide/builtin-plugins/todo',
       },
       {
         text: 'Unit Converter',
-        link: '/guide/built-in-plugins/unit-converter',
+        link: '/guide/builtin-plugins/unit-converter',
       },
       {
         text: 'Video Player',
-        link: '/guide/built-in-plugins/video-player',
+        link: '/guide/builtin-plugins/video-player',
       },
       {
         text: 'Voice Recorder',
-        link: '/guide/built-in-plugins/voice-recorder',
+        link: '/guide/builtin-plugins/voice-recorder',
       },
       {
         text: 'Whiteboard',
-        link: '/guide/built-in-plugins/whiteboard',
+        link: '/guide/builtin-plugins/whiteboard',
       },
     ],
   },
@@ -450,235 +450,235 @@ export const zhSidebar = [
     items: [
       {
         text: 'AI 助手',
-        link: '/zh/guide/built-in-plugins/ai-assistant',
+        link: '/zh/guide/builtin-plugins/ai-assistant',
       },
       {
         text: 'AI 聊天',
-        link: '/zh/guide/built-in-plugins/ai-chat',
+        link: '/zh/guide/builtin-plugins/ai-chat',
       },
       {
         text: '音频编辑',
-        link: '/zh/guide/built-in-plugins/audio-editor',
+        link: '/zh/guide/builtin-plugins/audio-editor',
       },
       {
         text: '两步验证',
-        link: '/zh/guide/built-in-plugins/authenticator',
+        link: '/zh/guide/builtin-plugins/authenticator',
       },
       {
         text: 'Base64',
-        link: '/zh/guide/built-in-plugins/base64',
+        link: '/zh/guide/builtin-plugins/base64',
       },
       {
         text: '浏览器',
-        link: '/zh/guide/built-in-plugins/browser',
+        link: '/zh/guide/builtin-plugins/browser',
       },
       {
         text: '计算稿纸',
-        link: '/zh/guide/built-in-plugins/calculation-pad',
+        link: '/zh/guide/builtin-plugins/calculation-pad',
       },
       {
         text: '计算器',
-        link: '/zh/guide/built-in-plugins/calculator',
+        link: '/zh/guide/builtin-plugins/calculator',
       },
       {
         text: '日历',
-        link: '/zh/guide/built-in-plugins/calendar',
+        link: '/zh/guide/builtin-plugins/calendar',
       },
       {
         text: '相机',
-        link: '/zh/guide/built-in-plugins/camera',
+        link: '/zh/guide/builtin-plugins/camera',
       },
       {
         text: '垃圾清理',
-        link: '/zh/guide/built-in-plugins/cleaner',
+        link: '/zh/guide/builtin-plugins/cleaner',
       },
       {
         text: '剪贴板',
-        link: '/zh/guide/built-in-plugins/clipboard',
+        link: '/zh/guide/builtin-plugins/clipboard',
       },
       {
         text: '时钟',
-        link: '/zh/guide/built-in-plugins/clock',
+        link: '/zh/guide/builtin-plugins/clock',
       },
       {
         text: '代码格式化',
-        link: '/zh/guide/built-in-plugins/code-formatter',
+        link: '/zh/guide/builtin-plugins/code-formatter',
       },
       {
         text: '代码图片',
-        link: '/zh/guide/built-in-plugins/code-image',
+        link: '/zh/guide/builtin-plugins/code-image',
       },
       {
         text: '颜色',
-        link: '/zh/guide/built-in-plugins/color',
+        link: '/zh/guide/builtin-plugins/color',
       },
       {
         text: '配置编辑',
-        link: '/zh/guide/built-in-plugins/config-editor',
+        link: '/zh/guide/builtin-plugins/config-editor',
       },
       {
         text: '磁盘空间分析',
-        link: '/zh/guide/built-in-plugins/disk-usage',
+        link: '/zh/guide/builtin-plugins/disk-usage',
       },
       {
         text: '下载器',
-        link: '/zh/guide/built-in-plugins/downloader',
+        link: '/zh/guide/builtin-plugins/downloader',
       },
       {
         text: '重复文件清理',
-        link: '/zh/guide/built-in-plugins/duplicate-cleaner',
+        link: '/zh/guide/builtin-plugins/duplicate-cleaner',
       },
       {
         text: '文件搜索',
-        link: '/zh/guide/built-in-plugins/file-search',
+        link: '/zh/guide/builtin-plugins/file-search',
       },
       {
         text: '悬浮',
-        link: '/zh/guide/built-in-plugins/float',
+        link: '/zh/guide/builtin-plugins/float',
       },
       {
         text: '哈希计算',
-        link: '/zh/guide/built-in-plugins/hash',
+        link: '/zh/guide/builtin-plugins/hash',
       },
       {
         text: 'HEX 编辑',
-        link: '/zh/guide/built-in-plugins/hex-editor',
+        link: '/zh/guide/builtin-plugins/hex-editor',
       },
       {
         text: 'Hosts 切换',
-        link: '/zh/guide/built-in-plugins/hosts',
+        link: '/zh/guide/builtin-plugins/hosts',
       },
       {
         text: 'HTTP 请求',
-        link: '/zh/guide/built-in-plugins/http-request',
+        link: '/zh/guide/builtin-plugins/http-request',
       },
       {
         text: '图片标注',
-        link: '/zh/guide/built-in-plugins/image-annotator',
+        link: '/zh/guide/builtin-plugins/image-annotator',
       },
       {
         text: '图片压缩',
-        link: '/zh/guide/built-in-plugins/image-compressor',
+        link: '/zh/guide/builtin-plugins/image-compressor',
       },
       {
         text: '图片裁剪',
-        link: '/zh/guide/built-in-plugins/image-cropper',
+        link: '/zh/guide/builtin-plugins/image-cropper',
       },
       {
         text: 'JSON 编辑',
-        link: '/zh/guide/built-in-plugins/json-editor',
+        link: '/zh/guide/builtin-plugins/json-editor',
       },
       {
         text: '大文件清理',
-        link: '/zh/guide/built-in-plugins/large-file',
+        link: '/zh/guide/builtin-plugins/large-file',
       },
       {
         text: 'Markdown 编辑',
-        link: '/zh/guide/built-in-plugins/markdown-editor',
+        link: '/zh/guide/builtin-plugins/markdown-editor',
       },
       {
         text: '音视频压缩',
-        link: '/zh/guide/built-in-plugins/media-compressor',
+        link: '/zh/guide/builtin-plugins/media-compressor',
       },
       {
         text: '媒体格式转换',
-        link: '/zh/guide/built-in-plugins/media-converter',
+        link: '/zh/guide/builtin-plugins/media-converter',
       },
       {
         text: '思维导图',
-        link: '/zh/guide/built-in-plugins/mind-map',
+        link: '/zh/guide/builtin-plugins/mind-map',
       },
       {
         text: '音乐播放',
-        link: '/zh/guide/built-in-plugins/music-player',
+        link: '/zh/guide/builtin-plugins/music-player',
       },
       {
         text: '记事本',
-        link: '/zh/guide/built-in-plugins/notepad',
+        link: '/zh/guide/builtin-plugins/notepad',
       },
       {
         text: '密码生成',
-        link: '/zh/guide/built-in-plugins/password-generator',
+        link: '/zh/guide/builtin-plugins/password-generator',
       },
       {
         text: '密码管理',
-        link: '/zh/guide/built-in-plugins/password-manager',
+        link: '/zh/guide/builtin-plugins/password-manager',
       },
       {
         text: 'PDF',
-        link: '/zh/guide/built-in-plugins/pdf',
+        link: '/zh/guide/builtin-plugins/pdf',
       },
       {
         text: '照片拼接',
-        link: '/zh/guide/built-in-plugins/photo-collage',
+        link: '/zh/guide/builtin-plugins/photo-collage',
       },
       {
         text: '番茄钟',
-        link: '/zh/guide/built-in-plugins/pomodoro',
+        link: '/zh/guide/builtin-plugins/pomodoro',
       },
       {
         text: '进程清理',
-        link: '/zh/guide/built-in-plugins/process-killer',
+        link: '/zh/guide/builtin-plugins/process-killer',
       },
       {
         text: '二维码',
-        link: '/zh/guide/built-in-plugins/qrcode',
+        link: '/zh/guide/builtin-plugins/qrcode',
       },
       {
         text: '批量重命名',
-        link: '/zh/guide/built-in-plugins/renamer',
+        link: '/zh/guide/builtin-plugins/renamer',
       },
       {
         text: '正则表达式',
-        link: '/zh/guide/built-in-plugins/regexp',
+        link: '/zh/guide/builtin-plugins/regexp',
       },
       {
         text: 'RSS 阅读',
-        link: '/zh/guide/built-in-plugins/rss-reader',
+        link: '/zh/guide/builtin-plugins/rss-reader',
       },
       {
         text: '便签',
-        link: '/zh/guide/built-in-plugins/stickies',
+        link: '/zh/guide/builtin-plugins/stickies',
       },
       {
         text: '系统信息',
-        link: '/zh/guide/built-in-plugins/system-info',
+        link: '/zh/guide/builtin-plugins/system-info',
       },
       {
         text: '文本对比',
-        link: '/zh/guide/built-in-plugins/text-diff',
+        link: '/zh/guide/builtin-plugins/text-diff',
       },
       {
         text: '文本编码',
-        link: '/zh/guide/built-in-plugins/text-encoder',
+        link: '/zh/guide/builtin-plugins/text-encoder',
       },
       {
         text: '计时器',
-        link: '/zh/guide/built-in-plugins/timer',
+        link: '/zh/guide/builtin-plugins/timer',
       },
       {
         text: '时间戳转换',
-        link: '/zh/guide/built-in-plugins/timestamp',
+        link: '/zh/guide/builtin-plugins/timestamp',
       },
       {
         text: '待办清单',
-        link: '/zh/guide/built-in-plugins/todo',
+        link: '/zh/guide/builtin-plugins/todo',
       },
       {
         text: '单位换算',
-        link: '/zh/guide/built-in-plugins/unit-converter',
+        link: '/zh/guide/builtin-plugins/unit-converter',
       },
       {
         text: '视频播放',
-        link: '/zh/guide/built-in-plugins/video-player',
+        link: '/zh/guide/builtin-plugins/video-player',
       },
       {
         text: '录音机',
-        link: '/zh/guide/built-in-plugins/voice-recorder',
+        link: '/zh/guide/builtin-plugins/voice-recorder',
       },
       {
         text: '白板',
-        link: '/zh/guide/built-in-plugins/whiteboard',
+        link: '/zh/guide/builtin-plugins/whiteboard',
       },
     ],
   },
