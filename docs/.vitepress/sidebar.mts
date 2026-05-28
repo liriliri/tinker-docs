@@ -64,6 +64,14 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/clock',
       },
       {
+        text: 'Code Editor',
+        link: '/guide/built-in-plugins/code-editor',
+      },
+      {
+        text: 'Code Editor',
+        link: '/guide/built-in-plugins/code-editor',
+      },
+      {
         text: 'Code Formatter',
         link: '/guide/built-in-plugins/code-formatter',
       },
@@ -208,6 +216,14 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/system-info',
       },
       {
+        text: 'Terminal',
+        link: '/guide/built-in-plugins/terminal',
+      },
+      {
+        text: 'Terminal',
+        link: '/guide/built-in-plugins/terminal',
+      },
+      {
         text: 'Text Diff',
         link: '/guide/built-in-plugins/text-diff',
       },
@@ -238,6 +254,10 @@ export const enSidebar = [
       {
         text: 'Voice Recorder',
         link: '/guide/built-in-plugins/voice-recorder',
+      },
+      {
+        text: 'Web Runner',
+        link: '/guide/built-in-plugins/web-runner',
       },
       {
         text: 'Whiteboard',
@@ -501,6 +521,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/clock',
       },
       {
+        text: '代码编辑',
+        link: '/zh/guide/built-in-plugins/code-editor',
+      },
+      {
         text: '代码格式化',
         link: '/zh/guide/built-in-plugins/code-formatter',
       },
@@ -645,6 +669,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/system-info',
       },
       {
+        text: '终端',
+        link: '/zh/guide/built-in-plugins/terminal',
+      },
+      {
         text: '文本对比',
         link: '/zh/guide/built-in-plugins/text-diff',
       },
@@ -675,6 +703,10 @@ export const zhSidebar = [
       {
         text: '录音机',
         link: '/zh/guide/built-in-plugins/voice-recorder',
+      },
+      {
+        text: '网页运行器',
+        link: '/zh/guide/built-in-plugins/web-runner',
       },
       {
         text: '白板',
