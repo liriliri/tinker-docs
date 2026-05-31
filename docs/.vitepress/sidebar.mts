@@ -216,6 +216,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/system-info',
       },
       {
+        text: 'System Monitor',
+        link: '/guide/built-in-plugins/system-monitor',
+      },
+      {
         text: 'Terminal',
         link: '/guide/built-in-plugins/terminal',
       },
@@ -230,6 +234,10 @@ export const enSidebar = [
       {
         text: 'Text Encoder',
         link: '/guide/built-in-plugins/text-encoder',
+      },
+      {
+        text: 'Text Search',
+        link: '/guide/built-in-plugins/text-search',
       },
       {
         text: 'Timer',
@@ -669,6 +677,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/system-info',
       },
       {
+        text: '系统监控',
+        link: '/zh/guide/built-in-plugins/system-monitor',
+      },
+      {
         text: '终端',
         link: '/zh/guide/built-in-plugins/terminal',
       },
@@ -679,6 +691,10 @@ export const zhSidebar = [
       {
         text: '文本编码',
         link: '/zh/guide/built-in-plugins/text-encoder',
+      },
+      {
+        text: '文本搜索',
+        link: '/zh/guide/built-in-plugins/text-search',
       },
       {
         text: '计时器',
