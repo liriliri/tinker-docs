@@ -108,6 +108,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/float',
       },
       {
+        text: 'Git',
+        link: '/guide/built-in-plugins/git',
+      },
+      {
         text: 'Hash',
         link: '/guide/built-in-plugins/hash',
       },
@@ -342,6 +346,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/map',
       },
       {
+        text: 'Markdown Live',
+        link: '/guide/official-plugins/markdown-live',
+      },
+      {
         text: 'NES',
         link: '/guide/official-plugins/nes',
       },
@@ -567,6 +575,10 @@ export const zhSidebar = [
       {
         text: '悬浮',
         link: '/zh/guide/built-in-plugins/float',
+      },
+      {
+        text: 'Git',
+        link: '/zh/guide/built-in-plugins/git',
       },
       {
         text: '哈希计算',
@@ -797,6 +809,10 @@ export const zhSidebar = [
       {
         text: '地图',
         link: '/zh/guide/official-plugins/map',
+      },
+      {
+        text: 'Markdown 实时编辑',
+        link: '/zh/guide/official-plugins/markdown-live',
       },
       {
         text: '红白机',
