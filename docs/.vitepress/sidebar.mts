@@ -346,6 +346,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/map',
       },
       {
+        text: 'Meme',
+        link: '/guide/official-plugins/meme',
+      },
+      {
         text: 'Markdown Live',
         link: '/guide/official-plugins/markdown-live',
       },
@@ -809,6 +813,10 @@ export const zhSidebar = [
       {
         text: '地图',
         link: '/zh/guide/official-plugins/map',
+      },
+      {
+        text: '表情包',
+        link: '/zh/guide/official-plugins/meme',
       },
       {
         text: 'Markdown 实时编辑',
