@@ -396,6 +396,16 @@ export const enSidebar = [
     ],
   },
   {
+    text: 'Official Games',
+    collapsed: false,
+    items: [
+      {
+        text: '2048',
+        link: '/guide/official-games/2048',
+      },
+    ],
+  },
+  {
     text: 'Third-Party Plugins',
     collapsed: false,
     items: [
@@ -861,6 +871,16 @@ export const zhSidebar = [
       {
         text: '白噪音',
         link: '/zh/guide/official-plugins/white-noise',
+      },
+    ],
+  },
+  {
+    text: '官方游戏',
+    collapsed: false,
+    items: [
+      {
+        text: '2048',
+        link: '/zh/guide/official-games/2048',
       },
     ],
   },

@@ -10,3 +10,6 @@
 [submodule "tinker-third-party"]
 	path = tinker-third-party
 	url = https://github.com/liriliri/tinker-third-party.git
+[submodule "tinker-games"]
+	path = tinker-games
+	url = https://github.com/liriliri/tinker-games.git
