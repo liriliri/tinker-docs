@@ -2,7 +2,7 @@
 
 ## Installation
 
-TINKER supports [Windows x64](https://release.liriliri.io/tinker/TINKER-1.18.1-win-x64.exe), [macOS Apple silicon](https://release.liriliri.io/tinker/TINKER-1.18.1-mac-arm64.dmg), [macOS Intel chip](https://release.liriliri.io/tinker/TINKER-1.18.1-mac-x64.dmg), [Linux DEB](https://release.liriliri.io/tinker/TINKER-1.18.1-linux-amd64.deb) and [Linux RPM](https://release.liriliri.io/tinker/TINKER-1.18.1-linux-x86_64.rpm) platforms. After downloading and installing, simply click the desktop icon to start using it.
+TINKER supports [Windows x64](https://release.liriliri.io/tinker/TINKER-1.19.0-win-x64.exe), [macOS Apple silicon](https://release.liriliri.io/tinker/TINKER-1.19.0-mac-arm64.dmg), [macOS Intel chip](https://release.liriliri.io/tinker/TINKER-1.19.0-mac-x64.dmg), [Linux DEB](https://release.liriliri.io/tinker/TINKER-1.19.0-linux-amd64.deb) and [Linux RPM](https://release.liriliri.io/tinker/TINKER-1.19.0-linux-x86_64.rpm) platforms. After downloading and installing, simply click the desktop icon to start using it.
 
 ## Basic Usage
 
