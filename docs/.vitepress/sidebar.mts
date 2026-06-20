@@ -358,6 +358,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/markdown-live',
       },
       {
+        text: 'MBTI Test',
+        link: '/guide/official-plugins/mbti-test',
+      },
+      {
         text: 'NES',
         link: '/guide/official-plugins/nes',
       },
@@ -839,6 +843,10 @@ export const zhSidebar = [
       {
         text: 'Markdown 实时编辑',
         link: '/zh/guide/official-plugins/markdown-live',
+      },
+      {
+        text: 'MBTI 人格测试',
+        link: '/zh/guide/official-plugins/mbti-test',
       },
       {
         text: '红白机',
