@@ -100,6 +100,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/duplicate-cleaner',
       },
       {
+        text: 'File Explorer',
+        link: '/guide/built-in-plugins/file-explorer',
+      },
+      {
         text: 'File Search',
         link: '/guide/built-in-plugins/file-search',
       },
@@ -581,6 +585,10 @@ export const zhSidebar = [
       {
         text: '重复文件清理',
         link: '/zh/guide/built-in-plugins/duplicate-cleaner',
+      },
+      {
+        text: '文件管理',
+        link: '/zh/guide/built-in-plugins/file-explorer',
       },
       {
         text: '文件搜索',
