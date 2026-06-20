@@ -68,10 +68,6 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/code-editor',
       },
       {
-        text: 'Code Editor',
-        link: '/guide/built-in-plugins/code-editor',
-      },
-      {
         text: 'Code Formatter',
         link: '/guide/built-in-plugins/code-formatter',
       },
@@ -226,10 +222,6 @@ export const enSidebar = [
       {
         text: 'System Monitor',
         link: '/guide/built-in-plugins/system-monitor',
-      },
-      {
-        text: 'Terminal',
-        link: '/guide/built-in-plugins/terminal',
       },
       {
         text: 'Terminal',
