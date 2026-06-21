@@ -403,6 +403,10 @@ export const enSidebar = [
         text: '2048',
         link: '/guide/official-games/2048',
       },
+      {
+        text: 'Minesweeper',
+        link: '/guide/official-games/minesweeper',
+      },
     ],
   },
   {
@@ -889,6 +893,10 @@ export const zhSidebar = [
       {
         text: '2048',
         link: '/zh/guide/official-games/2048',
+      },
+      {
+        text: '扫雷',
+        link: '/zh/guide/official-games/minesweeper',
       },
     ],
   },
