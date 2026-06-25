@@ -104,6 +104,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/file-search',
       },
       {
+        text: 'File Shredder',
+        link: '/guide/built-in-plugins/file-shredder',
+      },
+      {
         text: 'Float',
         link: '/guide/built-in-plugins/float',
       },
@@ -186,6 +190,14 @@ export const enSidebar = [
       {
         text: 'Photo Collage',
         link: '/guide/built-in-plugins/photo-collage',
+      },
+      {
+        text: 'Photo Develop',
+        link: '/guide/built-in-plugins/photo-develop',
+      },
+      {
+        text: 'Photo Viewer',
+        link: '/guide/built-in-plugins/photo-viewer',
       },
       {
         text: 'Pomodoro',
@@ -595,6 +607,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/file-search',
       },
       {
+        text: '文件粉碎',
+        link: '/zh/guide/built-in-plugins/file-shredder',
+      },
+      {
         text: '悬浮',
         link: '/zh/guide/built-in-plugins/float',
       },
@@ -677,6 +693,14 @@ export const zhSidebar = [
       {
         text: '照片拼接',
         link: '/zh/guide/built-in-plugins/photo-collage',
+      },
+      {
+        text: '照片调色',
+        link: '/zh/guide/built-in-plugins/photo-develop',
+      },
+      {
+        text: '照片查看',
+        link: '/zh/guide/built-in-plugins/photo-viewer',
       },
       {
         text: '番茄钟',
