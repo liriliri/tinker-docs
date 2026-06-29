@@ -423,6 +423,10 @@ export const enSidebar = [
         text: 'Spider Solitaire',
         link: '/guide/official-games/spider-solitaire',
       },
+      {
+        text: 'Trap the Cat',
+        link: '/guide/official-games/trap-the-cat',
+      },
     ],
   },
   {
@@ -929,6 +933,10 @@ export const zhSidebar = [
       {
         text: '蜘蛛纸牌',
         link: '/zh/guide/official-games/spider-solitaire',
+      },
+      {
+        text: '圈小猫',
+        link: '/zh/guide/official-games/trap-the-cat',
       },
     ],
   },
