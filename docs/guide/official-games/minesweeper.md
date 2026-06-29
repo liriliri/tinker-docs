@@ -15,7 +15,9 @@ Clear the minefield without detonating a bomb! A retro-style puzzle game for [TI
 
 ## Installation
 
-Download and install [TINKER](https://tinker.liriliri.io/), then run:
+Play directly in browser at https://tinker.liriliri.io/games/minesweeper/.
+
+Or install via TINKER: download from [TINKER](https://tinker.liriliri.io/), then run:
 
 ```bash
 npm i -g tinker-minesweeper

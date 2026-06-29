@@ -15,7 +15,9 @@
 
 ## 安装
 
-下载并安装 [TINKER](https://tinker.liriliri.io/)，然后运行：
+直接在浏览器中体验：https://tinker.liriliri.io/games/minesweeper/。
+
+或者通过 TINKER 安装：下载 [TINKER](https://tinker.liriliri.io/)，然后运行：
 
 ```bash
 npm i -g tinker-minesweeper

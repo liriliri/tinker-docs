@@ -419,6 +419,10 @@ export const enSidebar = [
         text: 'Minesweeper',
         link: '/guide/official-games/minesweeper',
       },
+      {
+        text: 'Spider Solitaire',
+        link: '/guide/official-games/spider-solitaire',
+      },
     ],
   },
   {
@@ -921,6 +925,10 @@ export const zhSidebar = [
       {
         text: '扫雷',
         link: '/zh/guide/official-games/minesweeper',
+      },
+      {
+        text: '蜘蛛纸牌',
+        link: '/zh/guide/official-games/spider-solitaire',
       },
     ],
   },
