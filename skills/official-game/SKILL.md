@@ -17,7 +17,7 @@ Read the plugin's `README.md` from `tinker-games/packages/tinker-<name>/README.m
 
 ## 2. Create or update English doc
 
-Create or update `docs/guide/official-games/<name>.md` based on the README content. Adjust install section to use a link to TINKER and a code block for the npm command.
+Create or update `docs/guide/official-games/<name>.md` with the README content copied verbatim.
 
 ## 3. Create or update Chinese doc
 

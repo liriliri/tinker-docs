@@ -4,7 +4,7 @@ Clear the minefield without detonating a bomb! A retro-style puzzle game for [TI
 
 ![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-games/master/packages/tinker-minesweeper/screenshot.png)
 
-## Features
+## Highlights
 
 - **Authentic retro look** — hand-drawn Windows XP aesthetic with beveled borders, sunken displays, and the iconic smiley face button
 - **Three difficulty levels** — Beginner (9x9), Intermediate (16x16), and Expert (16x30)
@@ -15,13 +15,7 @@ Clear the minefield without detonating a bomb! A retro-style puzzle game for [TI
 
 ## Installation
 
-Play directly in browser at https://tinker.liriliri.io/games/minesweeper/.
-
-Or install via TINKER: download from [TINKER](https://tinker.liriliri.io/), then run:
-
-```bash
-npm i -g tinker-minesweeper
-```
+Play directly in [browser](https://tinker.liriliri.io/games/minesweeper/), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-minesweeper`.
 
 ## How to Play
 

@@ -15,13 +15,7 @@
 
 ## 安装
 
-直接在浏览器中体验：https://tinker.liriliri.io/games/spider-solitaire/。
-
-或者通过 TINKER 安装：下载 [TINKER](https://tinker.liriliri.io/)，然后运行：
-
-```bash
-npm i -g tinker-spider-solitaire
-```
+直接在[浏览器](https://tinker.liriliri.io/games/spider-solitaire/)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-spider-solitaire`。
 
 ## 玩法
 

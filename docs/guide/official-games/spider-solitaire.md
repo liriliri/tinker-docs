@@ -15,13 +15,7 @@ Build complete suits from King to Ace in this classic card game for [TINKER](htt
 
 ## Installation
 
-Play directly in browser at https://tinker.liriliri.io/games/spider-solitaire/.
-
-Or install via TINKER: download from [TINKER](https://tinker.liriliri.io/), then run:
-
-```bash
-npm i -g tinker-spider-solitaire
-```
+Play directly in [browser](https://tinker.liriliri.io/games/spider-solitaire/), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-spider-solitaire`.
 
 ## How to Play
 
