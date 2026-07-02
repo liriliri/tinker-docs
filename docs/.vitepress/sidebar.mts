@@ -416,6 +416,10 @@ export const enSidebar = [
         link: '/guide/official-games/2048',
       },
       {
+        text: 'Ball Maze',
+        link: '/guide/official-games/ball-maze',
+      },
+      {
         text: 'Minesweeper',
         link: '/guide/official-games/minesweeper',
       },
@@ -925,6 +929,10 @@ export const zhSidebar = [
       {
         text: '2048',
         link: '/zh/guide/official-games/2048',
+      },
+      {
+        text: '滚球迷宫',
+        link: '/zh/guide/official-games/ball-maze',
       },
       {
         text: '扫雷',
