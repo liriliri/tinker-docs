@@ -28,6 +28,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/authenticator',
       },
       {
+        text: 'Anniversary',
+        link: '/guide/built-in-plugins/anniversary',
+      },
+      {
         text: 'Base64',
         link: '/guide/built-in-plugins/base64',
       },
@@ -144,6 +148,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/image-cropper',
       },
       {
+        text: 'Image Splitter',
+        link: '/guide/built-in-plugins/image-splitter',
+      },
+      {
         text: 'JSON Editor',
         link: '/guide/built-in-plugins/json-editor',
       },
@@ -212,8 +220,16 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/qrcode',
       },
       {
+        text: 'Reader',
+        link: '/guide/built-in-plugins/reader',
+      },
+      {
         text: 'Renamer',
         link: '/guide/built-in-plugins/renamer',
+      },
+      {
+        text: 'SFTP',
+        link: '/guide/built-in-plugins/sftp',
       },
       {
         text: 'RegExp',
@@ -547,6 +563,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/authenticator',
       },
       {
+        text: '纪念日',
+        link: '/zh/guide/built-in-plugins/anniversary',
+      },
+      {
         text: 'Base64',
         link: '/zh/guide/built-in-plugins/base64',
       },
@@ -663,6 +683,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/image-cropper',
       },
       {
+        text: '图片分割',
+        link: '/zh/guide/built-in-plugins/image-splitter',
+      },
+      {
         text: 'JSON 编辑',
         link: '/zh/guide/built-in-plugins/json-editor',
       },
@@ -731,8 +755,16 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/qrcode',
       },
       {
+        text: '阅读器',
+        link: '/zh/guide/built-in-plugins/reader',
+      },
+      {
         text: '批量重命名',
         link: '/zh/guide/built-in-plugins/renamer',
+      },
+      {
+        text: 'SFTP',
+        link: '/zh/guide/built-in-plugins/sftp',
       },
       {
         text: '正则表达式',
