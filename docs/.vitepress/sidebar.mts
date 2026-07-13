@@ -310,6 +310,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/agent-notification',
       },
       {
+        text: 'Agent Skills',
+        link: '/guide/official-plugins/agent-skills',
+      },
+      {
         text: 'Background Remover',
         link: '/guide/official-plugins/bg-remover',
       },
@@ -843,6 +847,10 @@ export const zhSidebar = [
       {
         text: 'Agent 提示音',
         link: '/zh/guide/official-plugins/agent-notification',
+      },
+      {
+        text: 'Agent 技能',
+        link: '/zh/guide/official-plugins/agent-skills',
       },
       {
         text: '抠图',
