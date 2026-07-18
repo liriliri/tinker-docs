@@ -68,6 +68,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/clock',
       },
       {
+        text: 'Code Diagram',
+        link: '/guide/built-in-plugins/code-diagram',
+      },
+      {
         text: 'Code Editor',
         link: '/guide/built-in-plugins/code-editor',
       },
@@ -148,9 +152,14 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/image-cropper',
       },
       {
+        text: 'Image Effect',
+        link: '/guide/built-in-plugins/image-effect',
+      },
+      {
         text: 'Image Splitter',
         link: '/guide/built-in-plugins/image-splitter',
       },
+
       {
         text: 'JSON Editor',
         link: '/guide/built-in-plugins/json-editor',
@@ -330,6 +339,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/clipboard-sync',
       },
       {
+        text: 'Coding Agent',
+        link: '/guide/official-plugins/coding-agent',
+      },
+      {
         text: 'Dictionary',
         link: '/guide/official-plugins/dictionary',
       },
@@ -384,6 +397,10 @@ export const enSidebar = [
       {
         text: 'MBTI Test',
         link: '/guide/official-plugins/mbti-test',
+      },
+      {
+        text: 'Mouse Tester',
+        link: '/guide/official-plugins/mouse-tester',
       },
       {
         text: 'NES',
@@ -607,6 +624,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/clock',
       },
       {
+        text: '代码图表',
+        link: '/zh/guide/built-in-plugins/code-diagram',
+      },
+      {
         text: '代码编辑',
         link: '/zh/guide/built-in-plugins/code-editor',
       },
@@ -687,9 +708,14 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/image-cropper',
       },
       {
+        text: '图片效果',
+        link: '/zh/guide/built-in-plugins/image-effect',
+      },
+      {
         text: '图片分割',
         link: '/zh/guide/built-in-plugins/image-splitter',
       },
+
       {
         text: 'JSON 编辑',
         link: '/zh/guide/built-in-plugins/json-editor',
@@ -869,6 +895,10 @@ export const zhSidebar = [
         link: '/zh/guide/official-plugins/clipboard-sync',
       },
       {
+        text: '编程助手',
+        link: '/zh/guide/official-plugins/coding-agent',
+      },
+      {
         text: '词典',
         link: '/zh/guide/official-plugins/dictionary',
       },
@@ -923,6 +953,10 @@ export const zhSidebar = [
       {
         text: 'MBTI 人格测试',
         link: '/zh/guide/official-plugins/mbti-test',
+      },
+      {
+        text: '鼠标测试',
+        link: '/zh/guide/official-plugins/mouse-tester',
       },
       {
         text: '红白机',
