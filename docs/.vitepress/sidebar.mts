@@ -411,6 +411,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/ocr',
       },
       {
+        text: 'Stock',
+        link: '/guide/official-plugins/stock',
+      },
+      {
         text: 'Token Usage',
         link: '/guide/official-plugins/token-usage',
       },
@@ -965,6 +969,10 @@ export const zhSidebar = [
       {
         text: 'OCR 识别',
         link: '/zh/guide/official-plugins/ocr',
+      },
+      {
+        text: '股票',
+        link: '/zh/guide/official-plugins/stock',
       },
       {
         text: 'Token 统计',
