@@ -383,6 +383,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/lunar-calendar',
       },
       {
+        text: 'Mailbox',
+        link: '/guide/official-plugins/mailbox',
+      },
+      {
         text: 'Map',
         link: '/guide/official-plugins/map',
       },
@@ -941,6 +945,10 @@ export const zhSidebar = [
       {
         text: '万年历',
         link: '/zh/guide/official-plugins/lunar-calendar',
+      },
+      {
+        text: '邮箱',
+        link: '/zh/guide/official-plugins/mailbox',
       },
       {
         text: '地图',
