@@ -323,6 +323,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/agent-skills',
       },
       {
+        text: 'AVD',
+        link: '/guide/official-plugins/avd',
+      },
+      {
         text: 'Background Remover',
         link: '/guide/official-plugins/bg-remover',
       },
@@ -885,6 +889,10 @@ export const zhSidebar = [
       {
         text: 'Agent 技能',
         link: '/zh/guide/official-plugins/agent-skills',
+      },
+      {
+        text: 'AVD 管理',
+        link: '/zh/guide/official-plugins/avd',
       },
       {
         text: '抠图',
