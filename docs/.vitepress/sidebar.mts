@@ -32,6 +32,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/anniversary',
       },
       {
+        text: 'Archive',
+        link: '/guide/built-in-plugins/archive',
+      },
+      {
         text: 'Base64',
         link: '/guide/built-in-plugins/base64',
       },
@@ -303,6 +307,10 @@ export const enSidebar = [
       {
         text: 'Web Runner',
         link: '/guide/built-in-plugins/web-runner',
+      },
+      {
+        text: 'WebSocket',
+        link: '/guide/built-in-plugins/websocket',
       },
       {
         text: 'Whiteboard',
@@ -600,6 +608,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/anniversary',
       },
       {
+        text: '压缩包',
+        link: '/zh/guide/built-in-plugins/archive',
+      },
+      {
         text: 'Base64',
         link: '/zh/guide/built-in-plugins/base64',
       },
@@ -871,6 +883,10 @@ export const zhSidebar = [
       {
         text: '网页运行器',
         link: '/zh/guide/built-in-plugins/web-runner',
+      },
+      {
+        text: 'WebSocket',
+        link: '/zh/guide/built-in-plugins/websocket',
       },
       {
         text: '白板',
