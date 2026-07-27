@@ -451,6 +451,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/video-converter',
       },
       {
+        text: 'Video Downloader',
+        link: '/guide/official-plugins/video-downloader',
+      },
+      {
         text: 'Wallpaper',
         link: '/guide/official-plugins/wallpaper',
       },
@@ -1025,6 +1029,10 @@ export const zhSidebar = [
       {
         text: '视频转换',
         link: '/zh/guide/official-plugins/video-converter',
+      },
+      {
+        text: '视频下载',
+        link: '/zh/guide/official-plugins/video-downloader',
       },
       {
         text: '壁纸',
