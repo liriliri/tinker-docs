@@ -431,6 +431,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/stock',
       },
       {
+        text: 'SVG Editor',
+        link: '/guide/official-plugins/svg-editor',
+      },
+      {
         text: 'Token Usage',
         link: '/guide/official-plugins/token-usage',
       },
@@ -1009,6 +1013,10 @@ export const zhSidebar = [
       {
         text: '股票',
         link: '/zh/guide/official-plugins/stock',
+      },
+      {
+        text: 'SVG 编辑',
+        link: '/zh/guide/official-plugins/svg-editor',
       },
       {
         text: 'Token 统计',
