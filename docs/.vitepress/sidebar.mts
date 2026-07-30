@@ -427,6 +427,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/ocr',
       },
       {
+        text: 'Office',
+        link: '/guide/official-plugins/office',
+      },
+      {
         text: 'Stock',
         link: '/guide/official-plugins/stock',
       },
@@ -1009,6 +1013,10 @@ export const zhSidebar = [
       {
         text: 'OCR 识别',
         link: '/zh/guide/official-plugins/ocr',
+      },
+      {
+        text: 'Office',
+        link: '/zh/guide/official-plugins/office',
       },
       {
         text: '股票',
