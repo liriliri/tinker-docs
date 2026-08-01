@@ -6,9 +6,11 @@ TINKER is a desktop toolbox application that brings together a variety of produc
 
 In daily work and life, we often need various small tools: a calculator, a color picker, an image compressor, and so on. Typically, these tools are scattered across different applications or websites, requiring frequent switching between them. TINKER solves this problem by integrating multiple productivity tools into a single, unified application.
 
-- **Quick Access**: Launch with a keyboard shortcut, search for the tool you need, and press Enter to open it. When you're done, TINKER automatically hides itself.
-- **High Quality**: Each built-in plugin is carefully crafted to ensure a smooth and reliable user experience.
-- **Extensible**: Beyond the built-in plugins, TINKER supports installing excellent third-party tools to expand its capabilities.
+- **Instant Launch**: Launch with a shortcut, search and open tools with Enter, then auto-hide when done.
+- **Agent Ready**: CLI, MCP, and Agent Skills let AI open and call tools directly.
+- **Ready Out of the Box**: A large set of high-quality built-in tools covering coding, images, files, terminal, and more.
+- **Local First**: Tools run on your device, data stays local and can be freely exported for backup, and everyday use works offline.
+- **Freely Extensible**: Install official, third-party, web, and game plugins to grow the toolbox.
 
 ## Supported Platforms
 

@@ -18,9 +18,11 @@ TINKER is designed to be as simple and efficient as possible:
 
 ## User Interface
 
-TINKER's main interface consists of a search bar and a list of available tools. Simply start typing to filter tools, and press Enter to launch the one you need.
+TINKER's main interface consists of a search bar and a list of available tools. Type in the search bar to filter tools, then press Enter to open the first result in the list. Click a tool icon to open it, or double-click to open it in a separate window.
 
-Click the <Icon name="setting"/> icon to open settings, where you can configure the application's theme, language, keyboard shortcuts, and manage plugins.
+Right-click a tool icon for more actions. You can open or close a tool, choose **Open in New Window**, pin frequently used tools to the top of the list, or hide tools you don't need for now (hidden tools can still be found by search and unhidden). You can also create a system shortcut so the tool can be launched from the desktop or another launcher.
+
+The menu also lets you enable **Auto Detach Window**, so the tool always opens in its own window, and **Run in Background**, which keeps the plugin process running after the window is closed and optionally allows **Run at Startup**. The more menu in the top-right can refresh the plugin list, close all running plugins, or — when a tool is open — detach its window and export, import, or clear that plugin's local data.
 
 ## Installing Plugins
 

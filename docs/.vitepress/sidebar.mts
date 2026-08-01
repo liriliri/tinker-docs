@@ -8,6 +8,14 @@ export const enSidebar = [
     link: '/guide/quickstart',
   },
   {
+    text: 'Command Line',
+    link: '/guide/cli',
+  },
+  {
+    text: 'Using with AI',
+    link: '/guide/skills',
+  },
+  {
     text: 'Built-in Plugins',
     collapsed: false,
     items: [
@@ -594,6 +602,14 @@ export const zhSidebar = [
   {
     text: '快速开始',
     link: '/zh/guide/quickstart',
+  },
+  {
+    text: '命令行',
+    link: '/zh/guide/cli',
+  },
+  {
+    text: '配合 AI 使用',
+    link: '/zh/guide/skills',
   },
   {
     text: '内置插件',
