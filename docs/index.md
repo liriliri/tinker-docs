@@ -43,20 +43,30 @@ const downloads = [
 
 const features = [
   {
-    title: 'Easy to Use',
-    desc: 'Quickly launch with a shortcut, search and open tools with Enter, and auto-hide after use.',
-    image: '/calculation_pad.png'
+    title: 'Instant Launch',
+    desc: 'Launch with a shortcut, search and open tools with Enter, then auto-hide when done.',
+    image: '/photo_develop.png',
   },
   {
-    title: 'High Quality',
-    desc: 'Built-in high-quality plugins for common tasks.',
-    image: '/image_compressor.png'
+    title: 'Agent Ready',
+    desc: 'CLI, MCP, and Agent Skills let AI open and call tools directly.',
+    image: '/cursor.png',
   },
   {
-    title: 'Extensible',
-    desc: 'Supports installing excellent third-party tools.',
-    image: '/drawio.png'
-  }
+    title: 'Ready Out of the Box',
+    desc: 'A large set of high-quality built-in tools covering coding, images, files, terminal, and more.',
+    image: '/code_editor.png',
+  },
+  {
+    title: 'Local First',
+    desc: 'Tools run on your device, data stays local and can be freely exported for backup, and everyday use works offline.',
+    image: '/authenticator.png',
+  },
+  {
+    title: 'Freely Extensible',
+    desc: 'Install official, third-party, web, and game plugins to grow the toolbox.',
+    image: '/drawio.png',
+  },
 ]
 </script>
 

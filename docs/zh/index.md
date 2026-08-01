@@ -43,20 +43,30 @@ const downloads = [
 
 const features = [
   {
-    title: '使用方便',
-    desc: '快捷键呼出，搜索工具回车打开，使用完自动隐藏。',
-    image: '/calculation_pad.png'
+    title: '快捷呼出',
+    desc: '快捷键唤出，搜索工具回车即开，用完主窗口自动隐藏。',
+    image: '/photo_develop.png',
   },
   {
-    title: '质量优秀',
-    desc: '内置多款常用的高质量插件',
-    image: '/image_compressor.png'
+    title: 'Agent 可用',
+    desc: '提供 CLI、MCP 与 Agent Skills，让 AI 直接打开和调用工具。',
+    image: '/cursor.png',
   },
   {
-    title: '丰富扩展',
-    desc: '支持安装第三方优秀工具',
-    image: '/drawio.png'
-  }
+    title: '开箱即用',
+    desc: '内置大量高质量工具，覆盖编码、图片、文件、终端等日常场景。',
+    image: '/code_editor.png',
+  },
+  {
+    title: '本地优先',
+    desc: '工具在本地运行，数据不出本机，可自由导出备份，日常使用无需联网。',
+    image: '/authenticator.png',
+  },
+  {
+    title: '自由扩展',
+    desc: '支持安装官方、第三方、网页与游戏插件，一键扩充工具箱。',
+    image: '/drawio.png',
+  },
 ]
 </script>
 
