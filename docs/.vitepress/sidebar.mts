@@ -431,6 +431,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/mouse-tester',
       },
       {
+        text: 'N64',
+        link: '/guide/official-plugins/n64',
+      },
+      {
         text: 'NES',
         link: '/guide/official-plugins/nes',
       },
@@ -1029,6 +1033,10 @@ export const zhSidebar = [
       {
         text: '鼠标测试',
         link: '/zh/guide/official-plugins/mouse-tester',
+      },
+      {
+        text: 'N64',
+        link: '/zh/guide/official-plugins/n64',
       },
       {
         text: '红白机',
