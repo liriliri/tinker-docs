@@ -363,6 +363,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/coding-agent',
       },
       {
+        text: 'Color Background',
+        link: '/guide/official-plugins/color-bg',
+      },
+      {
         text: 'Dictionary',
         link: '/guide/official-plugins/dictionary',
       },
@@ -965,6 +969,10 @@ export const zhSidebar = [
       {
         text: '编程助手',
         link: '/zh/guide/official-plugins/coding-agent',
+      },
+      {
+        text: '炫彩背景',
+        link: '/zh/guide/official-plugins/color-bg',
       },
       {
         text: '词典',
