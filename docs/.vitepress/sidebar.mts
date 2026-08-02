@@ -391,6 +391,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/gba',
       },
       {
+        text: 'Gold Price',
+        link: '/guide/official-plugins/gold-price',
+      },
+      {
         text: 'Hanzi Converter',
         link: '/guide/official-plugins/hanzi-converter',
       },
@@ -997,6 +1001,10 @@ export const zhSidebar = [
       {
         text: 'GBA',
         link: '/zh/guide/official-plugins/gba',
+      },
+      {
+        text: '金价',
+        link: '/zh/guide/official-plugins/gold-price',
       },
       {
         text: '汉字转换',
