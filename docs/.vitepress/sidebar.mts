@@ -339,6 +339,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/agent-skills',
       },
       {
+        text: 'Audio Transcriber',
+        link: '/guide/official-plugins/audio-transcriber',
+      },
+      {
         text: 'AVD',
         link: '/guide/official-plugins/avd',
       },
@@ -949,6 +953,10 @@ export const zhSidebar = [
       {
         text: 'Agent 技能',
         link: '/zh/guide/official-plugins/agent-skills',
+      },
+      {
+        text: '音频转录',
+        link: '/zh/guide/official-plugins/audio-transcriber',
       },
       {
         text: 'AVD 管理',
