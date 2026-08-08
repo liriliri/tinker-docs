@@ -6,7 +6,7 @@ title: Toolbox for Everyone
 import AppHome from '@share/components/AppHome.vue'
 import code from '@theme/lib/code'
 
-const version = "2.1.2"
+const version = "2.1.3"
 
 const downloads = [
   {
