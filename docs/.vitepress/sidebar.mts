@@ -331,6 +331,10 @@ export const enSidebar = [
     collapsed: false,
     items: [
       {
+        text: '3D Viewer',
+        link: '/guide/official-plugins/3d-viewer',
+      },
+      {
         text: 'Agent Notification',
         link: '/guide/official-plugins/agent-notification',
       },
@@ -477,6 +481,10 @@ export const enSidebar = [
       {
         text: 'Trending',
         link: '/guide/official-plugins/trending',
+      },
+      {
+        text: 'Text to Speech',
+        link: '/guide/official-plugins/tts',
       },
       {
         text: 'Typing Test',
@@ -947,6 +955,10 @@ export const zhSidebar = [
     collapsed: false,
     items: [
       {
+        text: '3D 预览',
+        link: '/zh/guide/official-plugins/3d-viewer',
+      },
+      {
         text: 'Agent 提示音',
         link: '/zh/guide/official-plugins/agent-notification',
       },
@@ -1093,6 +1105,10 @@ export const zhSidebar = [
       {
         text: '热搜榜',
         link: '/zh/guide/official-plugins/trending',
+      },
+      {
+        text: '语音合成',
+        link: '/zh/guide/official-plugins/tts',
       },
       {
         text: '打字测速',
