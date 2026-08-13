@@ -379,6 +379,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/dictionary',
       },
       {
+        text: 'DOS',
+        link: '/guide/official-plugins/dos',
+      },
+      {
         text: 'Electron Debug',
         link: '/guide/official-plugins/electron-debug',
       },
@@ -1001,6 +1005,10 @@ export const zhSidebar = [
       {
         text: '词典',
         link: '/zh/guide/official-plugins/dictionary',
+      },
+      {
+        text: 'DOS',
+        link: '/zh/guide/official-plugins/dos',
       },
       {
         text: 'Electron 调试',
