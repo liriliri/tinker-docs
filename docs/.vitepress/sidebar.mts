@@ -343,6 +343,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/agent-skills',
       },
       {
+        text: 'Aquarium',
+        link: '/guide/official-plugins/aquarium',
+      },
+      {
         text: 'Audio Transcriber',
         link: '/guide/official-plugins/audio-transcriber',
       },
@@ -969,6 +973,10 @@ export const zhSidebar = [
       {
         text: 'Agent 技能',
         link: '/zh/guide/official-plugins/agent-skills',
+      },
+      {
+        text: '水族箱',
+        link: '/zh/guide/official-plugins/aquarium',
       },
       {
         text: '音频转录',
