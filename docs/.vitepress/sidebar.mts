@@ -257,6 +257,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/regexp',
       },
       {
+        text: 'Resume',
+        link: '/guide/built-in-plugins/resume',
+      },
+      {
         text: 'RSS Reader',
         link: '/guide/built-in-plugins/rss-reader',
       },
@@ -303,6 +307,10 @@ export const enSidebar = [
       {
         text: 'Unit Converter',
         link: '/guide/built-in-plugins/unit-converter',
+      },
+      {
+        text: 'Video Cropper',
+        link: '/guide/built-in-plugins/video-cropper',
       },
       {
         text: 'Video Player',
@@ -893,6 +901,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/regexp',
       },
       {
+        text: '简历',
+        link: '/zh/guide/built-in-plugins/resume',
+      },
+      {
         text: 'RSS 阅读',
         link: '/zh/guide/built-in-plugins/rss-reader',
       },
@@ -939,6 +951,10 @@ export const zhSidebar = [
       {
         text: '单位换算',
         link: '/zh/guide/built-in-plugins/unit-converter',
+      },
+      {
+        text: '视频裁剪',
+        link: '/zh/guide/built-in-plugins/video-cropper',
       },
       {
         text: '视频播放',
