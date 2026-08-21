@@ -339,6 +339,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/agent-notification',
       },
       {
+        text: 'Agent Pet',
+        link: '/guide/official-plugins/agent-pet',
+      },
+      {
         text: 'Agent Skills',
         link: '/guide/official-plugins/agent-skills',
       },
@@ -969,6 +973,10 @@ export const zhSidebar = [
       {
         text: 'Agent 提示音',
         link: '/zh/guide/official-plugins/agent-notification',
+      },
+      {
+        text: 'Agent 桌宠',
+        link: '/zh/guide/official-plugins/agent-pet',
       },
       {
         text: 'Agent 技能',
