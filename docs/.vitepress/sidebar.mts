@@ -419,6 +419,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/gba',
       },
       {
+        text: 'GLTF Optimizer',
+        link: '/guide/official-plugins/gltf-optimizer',
+      },
+      {
         text: 'Gold Price',
         link: '/guide/official-plugins/gold-price',
       },
@@ -1061,6 +1065,10 @@ export const zhSidebar = [
       {
         text: 'GBA',
         link: '/zh/guide/official-plugins/gba',
+      },
+      {
+        text: 'GLTF 优化',
+        link: '/zh/guide/official-plugins/gltf-optimizer',
       },
       {
         text: '金价',
