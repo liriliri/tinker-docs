@@ -265,6 +265,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/rss-reader',
       },
       {
+        text: 'Screen Recorder',
+        link: '/guide/built-in-plugins/screen-recorder',
+      },
+      {
         text: 'Stickies',
         link: '/guide/built-in-plugins/stickies',
       },
@@ -549,8 +553,24 @@ export const enSidebar = [
         link: '/guide/official-games/ball-maze',
       },
       {
+        text: 'Chess',
+        link: '/guide/official-games/chess',
+      },
+      {
+        text: 'Chinese Chess',
+        link: '/guide/official-games/chinese-chess',
+      },
+      {
+        text: 'Gomoku',
+        link: '/guide/official-games/gomoku',
+      },
+      {
         text: 'Minesweeper',
         link: '/guide/official-games/minesweeper',
+      },
+      {
+        text: 'Reversi',
+        link: '/guide/official-games/reversi',
       },
       {
         text: 'Spider Solitaire',
@@ -913,6 +933,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/rss-reader',
       },
       {
+        text: '录屏',
+        link: '/zh/guide/built-in-plugins/screen-recorder',
+      },
+      {
         text: '便签',
         link: '/zh/guide/built-in-plugins/stickies',
       },
@@ -1197,8 +1221,24 @@ export const zhSidebar = [
         link: '/zh/guide/official-games/ball-maze',
       },
       {
+        text: '国际象棋',
+        link: '/zh/guide/official-games/chess',
+      },
+      {
+        text: '中国象棋',
+        link: '/zh/guide/official-games/chinese-chess',
+      },
+      {
+        text: '五子棋',
+        link: '/zh/guide/official-games/gomoku',
+      },
+      {
         text: '扫雷',
         link: '/zh/guide/official-games/minesweeper',
+      },
+      {
+        text: '黑白棋',
+        link: '/zh/guide/official-games/reversi',
       },
       {
         text: '蜘蛛纸牌',
