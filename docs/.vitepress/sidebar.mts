@@ -553,6 +553,10 @@ export const enSidebar = [
         link: '/guide/official-games/ball-maze',
       },
       {
+        text: 'Checkers',
+        link: '/guide/official-games/checkers',
+      },
+      {
         text: 'Chess',
         link: '/guide/official-games/chess',
       },
@@ -1219,6 +1223,10 @@ export const zhSidebar = [
       {
         text: '滚球迷宫',
         link: '/zh/guide/official-games/ball-maze',
+      },
+      {
+        text: '英式跳棋',
+        link: '/zh/guide/official-games/checkers',
       },
       {
         text: '国际象棋',
