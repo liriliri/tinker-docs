@@ -193,6 +193,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/media-converter',
       },
       {
+        text: 'Media Splitter',
+        link: '/guide/built-in-plugins/media-splitter',
+      },
+      {
         text: 'Mind Map',
         link: '/guide/built-in-plugins/mind-map',
       },
@@ -445,6 +449,10 @@ export const enSidebar = [
       {
         text: 'Life Progress',
         link: '/guide/official-plugins/life-progress',
+      },
+      {
+        text: 'Live2D',
+        link: '/guide/official-plugins/live2d',
       },
       {
         text: 'Lunar Calendar',
@@ -865,6 +873,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/media-converter',
       },
       {
+        text: '音视频分割',
+        link: '/zh/guide/built-in-plugins/media-splitter',
+      },
+      {
         text: '思维导图',
         link: '/zh/guide/built-in-plugins/mind-map',
       },
@@ -1117,6 +1129,10 @@ export const zhSidebar = [
       {
         text: '人生进度',
         link: '/zh/guide/official-plugins/life-progress',
+      },
+      {
+        text: 'Live2D 桌宠',
+        link: '/zh/guide/official-plugins/live2d',
       },
       {
         text: '万年历',
