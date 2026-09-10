@@ -148,6 +148,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/hosts',
       },
       {
+        text: 'Hotkeys',
+        link: '/guide/built-in-plugins/hotkeys',
+      },
+      {
         text: 'HTTP Request',
         link: '/guide/built-in-plugins/http-request',
       },
@@ -231,6 +235,10 @@ export const enSidebar = [
       {
         text: 'Photo Viewer',
         link: '/guide/built-in-plugins/photo-viewer',
+      },
+      {
+        text: 'Pie Menu',
+        link: '/guide/built-in-plugins/pie-menu',
       },
       {
         text: 'Pomodoro',
@@ -828,6 +836,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/hosts',
       },
       {
+        text: '快捷键',
+        link: '/zh/guide/built-in-plugins/hotkeys',
+      },
+      {
         text: 'HTTP 请求',
         link: '/zh/guide/built-in-plugins/http-request',
       },
@@ -911,6 +923,10 @@ export const zhSidebar = [
       {
         text: '照片查看',
         link: '/zh/guide/built-in-plugins/photo-viewer',
+      },
+      {
+        text: '悬浮球',
+        link: '/zh/guide/built-in-plugins/pie-menu',
       },
       {
         text: '番茄钟',
