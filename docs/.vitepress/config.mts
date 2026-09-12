@@ -22,6 +22,9 @@ export default defineConfig({
   description: 'TINKER Documentation',
   lastUpdated: true,
   outDir: '../dist',
+  sitemap: {
+    hostname: 'https://tinker.liriliri.io',
+  },
   themeConfig: {
     search: {
       provider: 'local',
