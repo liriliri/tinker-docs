@@ -19,7 +19,9 @@ const icon = (name: string) => {
 
 export default defineConfig({
   title: 'TINKER',
-  description: 'TINKER Documentation',
+  description:
+    'Open-source desktop toolbox with 100+ local productivity tools. Agent-ready, offline-first.',
+  titleTemplate: ':title | TINKER',
   lastUpdated: true,
   outDir: '../dist',
   sitemap: {
@@ -71,6 +73,8 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
+      description:
+        'Open-source desktop toolbox with 100+ local productivity tools. Agent-ready, offline-first.',
       themeConfig: {
         nav: [{ text: 'Guide', link: '/guide/' }],
       },
@@ -78,6 +82,8 @@ export default defineConfig({
     zh: {
       label: '中文',
       lang: 'zh',
+      description:
+        '开源桌面效率工具箱，内置上百款本地小工具。快捷呼出、本地优先，可通过 CLI、MCP 与 Agent Skills 被 AI 调用。',
       themeConfig: {
         nav: [{ text: '指南', link: '/zh/guide/' }],
         sidebar: {

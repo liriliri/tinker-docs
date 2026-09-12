@@ -1,6 +1,7 @@
 ---
 layout: page
-title: 为所有人打造的工具箱
+title: 开源桌面效率工具箱
+description: 开源桌面效率工具箱，内置上百款本地小工具。快捷键呼出、数据本地可离线使用，并支持通过 CLI、MCP 与 Agent Skills 被 AI 调用。
 ---
 <script setup>
 import AppHome from '@share/components/AppHome.vue'

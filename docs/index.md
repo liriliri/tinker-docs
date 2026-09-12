@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Toolbox for Everyone
+title: Open Source Desktop Toolbox
+description: Open-source desktop toolbox with 100+ local productivity tools. Launch instantly, work offline, and let AI agents call tools via CLI, MCP, and Agent Skills.
 ---
 <script setup>
 import AppHome from '@share/components/AppHome.vue'
