@@ -7,7 +7,7 @@ description: Open-source desktop toolbox with 100+ local productivity tools. Lau
 import AppHome from '@share/components/AppHome.vue'
 import code from '@theme/lib/code'
 
-const version = "2.5.0"
+const version = "3.0.0"
 
 const downloads = [
   {

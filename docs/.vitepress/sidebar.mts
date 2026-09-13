@@ -419,6 +419,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/electron-debug',
       },
       {
+        text: 'Electron Screencast',
+        link: '/guide/official-plugins/electron-screencast',
+      },
+      {
         text: 'Emoji',
         link: '/guide/official-plugins/emoji',
       },
@@ -1105,6 +1109,10 @@ export const zhSidebar = [
       {
         text: 'Electron 调试',
         link: '/zh/guide/official-plugins/electron-debug',
+      },
+      {
+        text: 'Electron 投屏',
+        link: '/zh/guide/official-plugins/electron-screencast',
       },
       {
         text: 'Emoji',
