@@ -7,7 +7,7 @@ description: 开源桌面效率工具箱，内置上百款本地小工具。快�
 import AppHome from '@share/components/AppHome.vue'
 import code from '@theme/lib/code'
 
-const version = "3.0.0"
+const version = "3.0.1"
 
 const downloads = [
   {
