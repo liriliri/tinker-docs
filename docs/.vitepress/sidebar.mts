@@ -511,6 +511,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/office',
       },
       {
+        text: 'Search All',
+        link: '/guide/official-plugins/search-all',
+      },
+      {
         text: 'Stock',
         link: '/guide/official-plugins/stock',
       },
@@ -1201,6 +1205,10 @@ export const zhSidebar = [
       {
         text: 'Office',
         link: '/zh/guide/official-plugins/office',
+      },
+      {
+        text: '全局搜索',
+        link: '/zh/guide/official-plugins/search-all',
       },
       {
         text: '股票',
