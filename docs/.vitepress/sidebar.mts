@@ -523,6 +523,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/svg-editor',
       },
       {
+        text: 'TCP Tunnel',
+        link: '/guide/official-plugins/tcp-tunnel',
+      },
+      {
         text: 'Token Usage',
         link: '/guide/official-plugins/token-usage',
       },
@@ -1217,6 +1221,10 @@ export const zhSidebar = [
       {
         text: 'SVG 编辑',
         link: '/zh/guide/official-plugins/svg-editor',
+      },
+      {
+        text: 'TCP 隧道',
+        link: '/zh/guide/official-plugins/tcp-tunnel',
       },
       {
         text: 'Token 统计',
