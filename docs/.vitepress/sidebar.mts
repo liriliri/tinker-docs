@@ -136,6 +136,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/git',
       },
       {
+        text: 'Habit',
+        link: '/guide/built-in-plugins/habit',
+      },
+      {
         text: 'Hash',
         link: '/guide/built-in-plugins/hash',
       },
@@ -834,6 +838,10 @@ export const zhSidebar = [
       {
         text: 'Git',
         link: '/zh/guide/built-in-plugins/git',
+      },
+      {
+        text: '习惯打卡',
+        link: '/zh/guide/built-in-plugins/habit',
       },
       {
         text: '哈希计算',
