@@ -563,6 +563,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/video-downloader',
       },
       {
+        text: 'Voice Clone',
+        link: '/guide/official-plugins/voice-clone',
+      },
+      {
         text: 'Wallpaper',
         link: '/guide/official-plugins/wallpaper',
       },
@@ -1269,6 +1273,10 @@ export const zhSidebar = [
       {
         text: '视频下载',
         link: '/zh/guide/official-plugins/video-downloader',
+      },
+      {
+        text: '音色克隆',
+        link: '/zh/guide/official-plugins/voice-clone',
       },
       {
         text: '壁纸',
