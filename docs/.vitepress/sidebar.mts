@@ -399,6 +399,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/bilibili-downloader',
       },
       {
+        text: 'Bongo Cat',
+        link: '/guide/official-plugins/bongo-cat',
+      },
+      {
         text: 'Clipboard Sync',
         link: '/guide/official-plugins/clipboard-sync',
       },
@@ -1101,6 +1105,10 @@ export const zhSidebar = [
       {
         text: 'B站视频下载',
         link: '/zh/guide/official-plugins/bilibili-downloader',
+      },
+      {
+        text: 'Bongo Cat',
+        link: '/zh/guide/official-plugins/bongo-cat',
       },
       {
         text: '剪贴板同步',
