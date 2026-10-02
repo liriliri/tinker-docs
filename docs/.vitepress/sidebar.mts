@@ -345,6 +345,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/web-runner',
       },
       {
+        text: 'Web Apps',
+        link: '/guide/built-in-plugins/webapp',
+      },
+      {
         text: 'WebSocket',
         link: '/guide/built-in-plugins/websocket',
       },
@@ -415,6 +419,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/color-bg',
       },
       {
+        text: 'CPU Ranking',
+        link: '/guide/official-plugins/cpu-ranking',
+      },
+      {
         text: 'Dictionary',
         link: '/guide/official-plugins/dictionary',
       },
@@ -455,6 +463,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/gold-price',
       },
       {
+        text: 'GPU Ranking',
+        link: '/guide/official-plugins/gpu-ranking',
+      },
+      {
         text: 'Hanzi Converter',
         link: '/guide/official-plugins/hanzi-converter',
       },
@@ -465,6 +477,10 @@ export const enSidebar = [
       {
         text: 'JS13K Games',
         link: '/guide/official-plugins/js13k',
+      },
+      {
+        text: 'Lan Share',
+        link: '/guide/official-plugins/lan-share',
       },
       {
         text: 'Life Progress',
@@ -521,6 +537,14 @@ export const enSidebar = [
       {
         text: 'Search All',
         link: '/guide/official-plugins/search-all',
+      },
+      {
+        text: 'Screen Tester',
+        link: '/guide/official-plugins/screen-tester',
+      },
+      {
+        text: 'Speed Test',
+        link: '/guide/official-plugins/speed-test',
       },
       {
         text: 'Stock',
@@ -607,6 +631,10 @@ export const enSidebar = [
       {
         text: 'Gomoku',
         link: '/guide/official-games/gomoku',
+      },
+      {
+        text: 'Jump Jump',
+        link: '/guide/official-games/jump-jump',
       },
       {
         text: 'Minesweeper',
@@ -1057,6 +1085,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/web-runner',
       },
       {
+        text: '网页应用',
+        link: '/zh/guide/built-in-plugins/webapp',
+      },
+      {
         text: 'WebSocket',
         link: '/zh/guide/built-in-plugins/websocket',
       },
@@ -1127,6 +1159,10 @@ export const zhSidebar = [
         link: '/zh/guide/official-plugins/color-bg',
       },
       {
+        text: 'CPU 天梯',
+        link: '/zh/guide/official-plugins/cpu-ranking',
+      },
+      {
         text: '词典',
         link: '/zh/guide/official-plugins/dictionary',
       },
@@ -1167,6 +1203,10 @@ export const zhSidebar = [
         link: '/zh/guide/official-plugins/gold-price',
       },
       {
+        text: 'GPU 天梯',
+        link: '/zh/guide/official-plugins/gpu-ranking',
+      },
+      {
         text: '汉字转换',
         link: '/zh/guide/official-plugins/hanzi-converter',
       },
@@ -1177,6 +1217,10 @@ export const zhSidebar = [
       {
         text: 'JS13K 游戏',
         link: '/zh/guide/official-plugins/js13k',
+      },
+      {
+        text: '局域网分享',
+        link: '/zh/guide/official-plugins/lan-share',
       },
       {
         text: '人生进度',
@@ -1233,6 +1277,14 @@ export const zhSidebar = [
       {
         text: '全局搜索',
         link: '/zh/guide/official-plugins/search-all',
+      },
+      {
+        text: '屏幕测试',
+        link: '/zh/guide/official-plugins/screen-tester',
+      },
+      {
+        text: '网速测试',
+        link: '/zh/guide/official-plugins/speed-test',
       },
       {
         text: '股票',
@@ -1319,6 +1371,10 @@ export const zhSidebar = [
       {
         text: '五子棋',
         link: '/zh/guide/official-games/gomoku',
+      },
+      {
+        text: '跳一跳',
+        link: '/zh/guide/official-games/jump-jump',
       },
       {
         text: '扫雷',
