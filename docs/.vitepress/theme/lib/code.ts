@@ -8,15 +8,14 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
   float time = iTime * 2.0;
   vec3 color = vec3(0.0);
 
-  for (float i = -2.0; i <= 4.0; i += 1.25) {
-    for (float j = -2.0; j <= 4.0; j += 1.25) {
-      vec2 p = uv;
-
+  for (float i = -2.0; i <= 4.0; i += 2.5) {
+    for (float j = -2.0; j <= 4.0; j += 2.5) {
       float freq = fract(643.376 * cos(264.863 * i + 136.937)) + 1.0;
       vec2 pos = 5.0 * vec2(i, j) + vec2(sin(freq * (iTime + 10.0 * j) - i), freq * iTime);
       pos.y = mod(pos.y + 15.0, 30.0) - 15.0;
       pos.x *= 0.1 * pos.y + 1.0;
-      p -= 0.2 * pos;
+
+      vec2 p = uv - 0.2 * pos;
 
       float an = mod(atan(p.y, p.x) + 6.2831 / 3.0, 6.2831 / 6.0) - 6.2831 / 3.0;
       p = vec2(cos(an), sin(an)) * length(p);
@@ -26,7 +25,8 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
       float flicker = mix(Hash31(vec3(i, j, sec)), Hash31(vec3(i, j, sec + 1.0)), frac);
 
       float rad = 25.0 + 80.0 * flicker;
-      float br = 250.0 * pow(1.0 / max(10.0, rad * (sqrt(abs(p.x)) + sqrt(abs(p.y))) + 0.9), 2.5);
+      float inv = 1.0 / max(10.0, rad * (sqrt(abs(p.x)) + sqrt(abs(p.y))) + 0.9);
+      float br = 250.0 * inv * inv * sqrt(inv);
       float rand = fract(847.384 * cos(483.846 * i + 737.487 * j + 264.836));
       if (rand > 0.5) color += mix(vec3(br, 0.4 * br, 0.0), vec3(1.0), br);
       else color += mix(vec3(0.0, 0.0, 0.6 * br), vec3(1.0), br);
