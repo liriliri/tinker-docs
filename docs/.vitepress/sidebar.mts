@@ -28,6 +28,10 @@ export const enSidebar = [
         link: '/guide/built-in-plugins/ai-chat',
       },
       {
+        text: 'AI Image',
+        link: '/guide/built-in-plugins/ai-image',
+      },
+      {
         text: 'Audio Editor',
         link: '/guide/built-in-plugins/audio-editor',
       },
@@ -283,6 +287,10 @@ export const enSidebar = [
       {
         text: 'Screen Recorder',
         link: '/guide/built-in-plugins/screen-recorder',
+      },
+      {
+        text: 'Screenshot Mockup',
+        link: '/guide/built-in-plugins/screenshot-mockup',
       },
       {
         text: 'Stickies',
@@ -768,6 +776,10 @@ export const zhSidebar = [
         link: '/zh/guide/built-in-plugins/ai-chat',
       },
       {
+        text: 'AI 生图',
+        link: '/zh/guide/built-in-plugins/ai-image',
+      },
+      {
         text: '音频编辑',
         link: '/zh/guide/built-in-plugins/audio-editor',
       },
@@ -1023,6 +1035,10 @@ export const zhSidebar = [
       {
         text: '录屏',
         link: '/zh/guide/built-in-plugins/screen-recorder',
+      },
+      {
+        text: '截图美化',
+        link: '/zh/guide/built-in-plugins/screenshot-mockup',
       },
       {
         text: '便签',
