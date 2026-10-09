@@ -13,11 +13,7 @@ A gamepad tester plugin for [TINKER](https://github.com/liriliri/tinker), suppor
 
 ## Installation
 
-Download and install [TINKER](https://tinker.liriliri.io/), then run:
-
-```bash
-npm i -g tinker-gamepad
-```
+Play directly in [browser](https://tinker.liriliri.io/plugins/gamepad), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-gamepad`.
 
 ## Usage
 

@@ -15,11 +15,7 @@ An MBTI personality type test plugin for [TINKER](https://tinker.liriliri.io/), 
 
 ## Installation
 
-Download and install [TINKER](https://tinker.liriliri.io/), then run:
-
-```bash
-npm i -g tinker-mbti-test
-```
+Play directly in [browser](https://tinker.liriliri.io/plugins/mbti-test), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-mbti-test`.
 
 ## Usage
 

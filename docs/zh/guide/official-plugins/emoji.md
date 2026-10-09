@@ -13,11 +13,7 @@ Emoji 表情选择器插件，支持 1700+ 个表情符号，可按分类浏览�
 
 ## 安装
 
-下载安装 [TINKER](https://tinker.liriliri.io/)，然后运行：
-
-```bash
-npm i -g tinker-emoji
-```
+直接在[浏览器](https://tinker.liriliri.io/plugins/emoji)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-emoji`。
 
 ## 使用方法
 

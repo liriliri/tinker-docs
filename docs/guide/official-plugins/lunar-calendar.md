@@ -14,11 +14,7 @@ A perpetual calendar plugin for [TINKER](https://tinker.liriliri.io/), supportin
 
 ## Installation
 
-Download and install [TINKER](https://tinker.liriliri.io/), then run:
-
-```bash
-npm i -g tinker-lunar-calendar
-```
+Play directly in [browser](https://tinker.liriliri.io/plugins/lunar-calendar), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-lunar-calendar`.
 
 ## Usage
 

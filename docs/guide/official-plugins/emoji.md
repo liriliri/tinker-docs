@@ -13,11 +13,7 @@ An emoji picker plugin for [TINKER](https://github.com/liriliri/tinker), support
 
 ## Installation
 
-Download and install [TINKER](https://tinker.liriliri.io/), then run:
-
-```bash
-npm i -g tinker-emoji
-```
+Play directly in [browser](https://tinker.liriliri.io/plugins/emoji), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-emoji`.
 
 ## Usage
 

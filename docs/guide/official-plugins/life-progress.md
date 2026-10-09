@@ -14,11 +14,7 @@ A life progress visualization plugin for [TINKER](https://tinker.liriliri.io/), 
 
 ## Installation
 
-First, download and install [TINKER](https://tinker.liriliri.io/), then run the following command:
-
-```bash
-npm i -g tinker-life-progress
-```
+Play directly in [browser](https://tinker.liriliri.io/plugins/life-progress), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-life-progress`.
 
 ## Usage
 

@@ -14,11 +14,7 @@ Chinese character conversion plugin with Pinyin, RMB capitalization, and Simplif
 
 ## Installation
 
-Download and install [TINKER](https://tinker.liriliri.io/), then run:
-
-```bash
-npm i -g tinker-hanzi-converter
-```
+Play directly in [browser](https://tinker.liriliri.io/plugins/hanzi-converter), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-hanzi-converter`.
 
 ## Usage
 

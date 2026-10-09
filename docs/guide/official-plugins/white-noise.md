@@ -14,11 +14,7 @@ White noise plugin with multiple natural ambient sounds and shader-powered dynam
 
 ## Installation
 
-Download and install [TINKER](https://tinker.liriliri.io/), then run:
-
-```bash
-npm i -g tinker-white-noise
-```
+Play directly in [browser](https://tinker.liriliri.io/plugins/white-noise), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-white-noise`.
 
 ## Usage
 

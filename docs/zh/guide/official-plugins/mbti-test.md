@@ -15,11 +15,7 @@ MBTI 人格测试插件，包含 70 道题目，涵盖四个维度和完整的 1
 
 ## 安装
 
-下载并安装 [TINKER](https://tinker.liriliri.io/)，然后运行：
-
-```bash
-npm i -g tinker-mbti-test
-```
+直接在[浏览器](https://tinker.liriliri.io/plugins/mbti-test)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-mbti-test`。
 
 ## 使用方法
 

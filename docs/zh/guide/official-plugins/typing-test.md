@@ -14,11 +14,7 @@
 
 ## 安装
 
-下载并安装 [TINKER](https://tinker.liriliri.io/)，然后运行：
-
-```bash
-npm i -g tinker-typing-test
-```
+直接在[浏览器](https://tinker.liriliri.io/plugins/typing-test)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-typing-test`。
 
 ## 使用方法
 

@@ -16,11 +16,7 @@ TINKER 桌面水族箱插件，渲染玻璃鱼缸、实时水面、程序化礁�
 
 ## 安装
 
-下载安装 [TINKER](https://tinker.liriliri.io/)，然后运行：
-
-```bash
-npm i -g tinker-aquarium
-```
+直接在[浏览器](https://tinker.liriliri.io/plugins/aquarium)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-aquarium`。
 
 ## 使用方法
 
