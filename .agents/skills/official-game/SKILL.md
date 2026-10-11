@@ -9,11 +9,10 @@ When the user asks to add or update a game plugin doc (e.g. "add 2048 doc", "upd
 
 ## 1. Read plugin info
 
-Read the plugin's `package.json` from `tinker-games/packages/tinker-<name>/package.json` to get:
-- `tinker.name` — used as the English sidebar item text
-- `tinker.locales.zh-CN.name` — used as the Chinese sidebar item text
+From `tinker-games/packages/tinker-<name>/`:
 
-Read the plugin's `README.md` from `tinker-games/packages/tinker-<name>/README.md` for content.
+- `package.json` — `tinker.name`, `tinker.locales.zh-CN.name` (fallback to `tinker.name`), `description`, `tinker.locales.zh-CN.description`, `tinker.category`
+- `README.md` — doc content
 
 ## 2. Create or update English doc
 
@@ -25,28 +24,40 @@ Create or update `docs/zh/guide/official-games/<name>.md` with the README conten
 
 ## 4. Update sidebar config (add only)
 
-If the plugin is new (not already in the sidebar), add an entry in `docs/.vitepress/sidebar.mts` to BOTH sidebar arrays:
+If the plugin is new, add to both sidebars in `docs/.vitepress/sidebar.mts` (`Official Games` / `官方游戏`), sorted by plugin id:
 
-- English sidebar (`enSidebar` → `Official Games` items array):
-  ```js
-  {
-    text: '<tinker.name value>',
-    link: '/guide/official-games/<name>',
-  },
-  ```
+```js
+// enSidebar
+{ text: '<tinker.name>', link: '/guide/official-games/<name>' }
 
-- Chinese sidebar (`zhSidebar` → `官方游戏` items array):
-  ```js
-  {
-    text: '<tinker.locales.zh-CN.name value>',
-    link: '/zh/guide/official-games/<name>',
-  },
-  ```
+// zhSidebar
+{ text: '<tinker.locales.zh-CN.name>', link: '/zh/guide/official-games/<name>' }
+```
+
+## 5. Online launcher (always)
+
+All official games support browser play. Always:
+
+1. Copy `icon.png` → `docs/public/icons/<name>.png`
+2. Upsert into `docs/.vitepress/theme/lib/onlinePlugins.ts` (`onlinePlugins`, sorted by `id`):
+
+```ts
+{
+  id: '<name>',
+  name: '<tinker.name>',
+  nameZh: '<tinker.locales.zh-CN.name>', // omit if same as name
+  description: '<package.json description>',
+  descriptionZh: '<tinker.locales.zh-CN.description>',
+  category: '<tinker.category>',
+  kind: 'game',
+}
+```
+
+`icon` / `url` are derived from `id` + `kind` (`/icons/<name>.png`, `https://tinker.liriliri.io/games/<name>/`).
 
 ## Key rules
 
-- The sidebar item `text` MUST come from `package.json`: English uses `tinker.name`, Chinese uses `tinker.locales.zh-CN.name` (if it exists, otherwise fall back to `tinker.name`)
-- The file name under `official-games/` should be the plugin name without the `tinker-` prefix (e.g. `tinker-2048` → `2048.md`)
-- The sidebar category is `Official Games` (EN) / `官方游戏` (ZH) with `collapsed: false`
-- Sidebar items MUST be sorted by plugin ID in alphabetical order (e.g. 2048 → cube → minesweeper)
-- Screenshot images should reference the raw GitHub URL from the README
+- File name is the plugin id without `tinker-` prefix (`tinker-2048` → `2048.md`)
+- Sidebar / online `name` fields come from `package.json` as above
+- Sidebar items MUST be sorted by plugin id (e.g. 2048 → ball-maze → minesweeper)
+- Screenshots use the raw GitHub URL from the README

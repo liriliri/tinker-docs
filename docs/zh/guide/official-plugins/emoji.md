@@ -9,11 +9,14 @@ Emoji 表情选择器插件，支持 1700+ 个表情符号，可按分类浏览�
 - **1700+ 表情符号**，按分类浏览
 - **搜索功能**，支持按名称、描述或关键词搜索（双语）
 - **点击复制**到剪贴板
-- **深色模式**支持
 
 ## 安装
 
-直接在[浏览器](https://tinker.liriliri.io/plugins/emoji)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-emoji`。
+直接在[浏览器](https://tinker.liriliri.io/plugins/emoji)中体验，或通过 [TINKER](https://tinker.liriliri.io/) 安装：
+
+```bash
+npm i -g tinker-emoji
+```
 
 ## 使用方法
 

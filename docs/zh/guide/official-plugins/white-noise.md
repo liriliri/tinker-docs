@@ -1,25 +1,28 @@
 # tinker-white-noise
 
-白噪音插件，提供多种自然环境音效搭配 Shader 动态场景，帮助放松和专注。
+[TINKER](https://github.com/liriliri/tinker) 的白噪音插件，提供环境场景与放松音频、Shader 画面。
 
 ![截图](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-white-noise/screenshot.png)
 
 ## 功能特性
 
-- **多种场景** — 雪景、雨天、海边、篝火、深海、夜晚六种自然环境
-- **动态画面** — 基于 Shader 渲染的实时动态场景
-- **音量调节** — 支持静音、25%、50%、75%、100% 五档音量
-- **全屏模式** — 沉浸式全屏体验
-- **右键菜单** — 右键快速切换场景和调节音量
+- **6 种场景**：Snowy、Rainy、Seaside、Bonfire、Deep Ocean、Night
+- **Shader 画面**，基于 WebGL
+- **循环音频**，每个场景对应一段
+- **音量控制**，支持静音
+- **全屏**支持
 
 ## 安装
 
-直接在[浏览器](https://tinker.liriliri.io/plugins/white-noise)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-white-noise`。
+直接在[浏览器](https://tinker.liriliri.io/plugins/white-noise)中体验，或通过 [TINKER](https://tinker.liriliri.io/) 安装：
+
+```bash
+npm i -g tinker-white-noise
+```
 
 ## 使用方法
 
-1. 打开插件即可自动播放默认场景
-2. 右键点击画面打开菜单
-3. 选择不同场景切换环境音和画面
-4. 在音量子菜单中调节音量
-5. 点击全屏进入沉浸模式
+1. 右键打开上下文菜单
+2. 选择场景（Snowy、Rainy、Seaside、Bonfire、Deep Ocean 或 Night）
+3. 按需调节音量或静音
+4. 切换全屏进入沉浸体验

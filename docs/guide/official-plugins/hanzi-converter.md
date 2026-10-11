@@ -1,24 +1,28 @@
 # tinker-hanzi-converter
 
-Chinese character conversion plugin with Pinyin, RMB capitalization, and Simplified/Traditional Chinese conversion.
+A Chinese character tools plugin for [TINKER](https://github.com/liriliri/tinker), supporting pinyin conversion, RMB uppercase, and simplified/traditional Chinese conversion.
 
 ![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-hanzi-converter/screenshot.png)
 
 ## Features
 
-- **Pinyin Conversion** — Convert Chinese characters to Pinyin with tone marks, tone numbers, or plain style
-- **RMB Capitalization** — Convert numeric amounts to Chinese RMB uppercase format
-- **Simplified/Traditional** — Convert between Simplified and Traditional Chinese
-- **One-click Copy** — Quickly copy conversion results to clipboard
-- **Bilingual UI** — Supports Chinese and English
+- **Pinyin Conversion** with tone marks, tone numbers, or no tones
+- **RMB Uppercase** converts numbers to Chinese financial uppercase
+- **SC/TC Conversion** between simplified and traditional Chinese
+- **Click to Copy** result to clipboard
 
 ## Installation
 
-Play directly in [browser](https://tinker.liriliri.io/plugins/hanzi-converter), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-hanzi-converter`.
+Play directly in [browser](https://tinker.liriliri.io/plugins/hanzi-converter), or install via [TINKER](https://tinker.liriliri.io/):
+
+```bash
+npm i -g tinker-hanzi-converter
+```
+
 
 ## Usage
 
-1. Select the desired tool (Pinyin, RMB, or Simplified/Traditional)
-2. Enter the text to convert in the input area
-3. The conversion result appears in real time below
-4. Click the copy button to copy the result
+1. Select a tool tab (Pinyin, RMB Uppercase, or SC/TC Convert)
+2. Type or paste text in the input area
+3. View the converted result below
+4. Click the copy button to copy the result to clipboard

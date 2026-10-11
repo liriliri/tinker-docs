@@ -1,6 +1,6 @@
 # tinker-gamepad
 
-手柄测试插件，支持多个控制器的实时输入可视化。
+[TINKER](https://github.com/liriliri/tinker) 的手柄测试插件，支持多个控制器的实时输入可视化。
 
 ![截图](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-gamepad/screenshot.png)
 
@@ -9,11 +9,15 @@
 - **实时输入**可视化，包括按钮、摇杆和扳机
 - **多手柄支持**，可切换玩家
 - **摇杆轨迹追踪**，记录摇杆移动历史
-- **深色模式**支持
 
 ## 安装
 
-直接在[浏览器](https://tinker.liriliri.io/plugins/gamepad)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-gamepad`。
+直接在[浏览器](https://tinker.liriliri.io/plugins/gamepad)中体验，或通过 [TINKER](https://tinker.liriliri.io/) 安装：
+
+```bash
+npm i -g tinker-gamepad
+```
+
 
 ## 使用方法
 

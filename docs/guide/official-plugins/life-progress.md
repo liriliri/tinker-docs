@@ -1,6 +1,6 @@
-# Life Progress
+# tinker-life-progress
 
-A life progress visualization plugin for [TINKER](https://tinker.liriliri.io/), tracking the passage of time across multiple dimensions.
+A life progress visualization plugin for [TINKER](https://github.com/liriliri/tinker), tracking the passage of time across multiple dimensions.
 
 ![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-life-progress/screenshot.png)
 
@@ -10,11 +10,15 @@ A life progress visualization plugin for [TINKER](https://tinker.liriliri.io/), 
 - **Year / Month / Week / Day** progress tracking with remaining time
 - **Animated Progress Bars** with shimmer and glow effects
 - **Configurable Birthday & Lifespan** via settings dialog
-- **Dark Mode** support
 
 ## Installation
 
-Play directly in [browser](https://tinker.liriliri.io/plugins/life-progress), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-life-progress`.
+Play directly in [browser](https://tinker.liriliri.io/plugins/life-progress), or install via [TINKER](https://tinker.liriliri.io/):
+
+```bash
+npm i -g tinker-life-progress
+```
+
 
 ## Usage
 

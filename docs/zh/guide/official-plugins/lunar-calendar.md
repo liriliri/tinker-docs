@@ -1,20 +1,23 @@
 # tinker-lunar-calendar
 
-万年历插件，支持农历、节气和中国传统黄历信息。
+[TINKER](https://github.com/liriliri/tinker) 的万年历插件，支持农历、节气和中国传统黄历信息。
 
 ![截图](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-lunar-calendar/screenshot.png)
 
 ## 功能特性
 
-- **公历与农历** — 月视图同时展示公历和农历日期
-- **节气与节日** — 每日高亮显示节气和节日信息
-- **假日与调休** — 标记中国法定节假日
-- **黄历详情** — 干支、生肖、星座、宜忌、冲煞、彭祖百忌
-- **深色模式** — 支持深色主题
+- **公历与农历**，月视图展示
+- **节气与节日**，每日高亮显示
+- **假日与调休**，标记中国法定节假日
+- **黄历详情**，包括干支、生肖、星座、宜忌、冲、煞、彭祖百忌
 
 ## 安装
 
-直接在[浏览器](https://tinker.liriliri.io/plugins/lunar-calendar)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-lunar-calendar`。
+直接在[浏览器](https://tinker.liriliri.io/plugins/lunar-calendar)中体验，或通过 [TINKER](https://tinker.liriliri.io/) 安装：
+
+```bash
+npm i -g tinker-lunar-calendar
+```
 
 ## 使用方法
 

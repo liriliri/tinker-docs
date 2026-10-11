@@ -10,11 +10,15 @@ A mouse tester plugin for [TINKER](https://github.com/liriliri/tinker), with rea
 - **Scroll Wheel** up/down feedback on the mouse diagram
 - **Live Telemetry** for cursor position, movement deltas, and double-click detection
 - **Optical Pad** UI with sensor tracking indicator
-- **Dark Mode** support
 
 ## Installation
 
-Play directly in [browser](https://tinker.liriliri.io/plugins/mouse-tester), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-mouse-tester`.
+Play directly in [browser](https://tinker.liriliri.io/plugins/mouse-tester), or install via [TINKER](https://tinker.liriliri.io/):
+
+```bash
+npm i -g tinker-mouse-tester
+```
+
 
 ## Usage
 

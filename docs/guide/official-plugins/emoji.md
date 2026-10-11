@@ -9,11 +9,15 @@ An emoji picker plugin for [TINKER](https://github.com/liriliri/tinker), support
 - **1700+ Emojis** with categories
 - **Search** by name, description, or keywords (bilingual)
 - **Click to Copy** to clipboard
-- **Dark Mode** support
 
 ## Installation
 
-Play directly in [browser](https://tinker.liriliri.io/plugins/emoji), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-emoji`.
+Play directly in [browser](https://tinker.liriliri.io/plugins/emoji), or install via [TINKER](https://tinker.liriliri.io/):
+
+```bash
+npm i -g tinker-emoji
+```
+
 
 ## Usage
 

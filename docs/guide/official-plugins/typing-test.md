@@ -1,20 +1,24 @@
 # tinker-typing-test
 
-A typing speed test plugin for [TINKER](https://tinker.liriliri.io/), with real-time WPM/CPM tracking and accuracy stats.
+A typing speed test plugin for [TINKER](https://github.com/liriliri/tinker), with real-time WPM/CPM tracking and accuracy stats.
 
 ![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-typing-test/screenshot.png)
 
 ## Features
 
-- **WPM & CPM** — Real-time speed tracking
-- **Accuracy** — Monitoring with error highlighting
-- **Bilingual** — Support for English and Chinese articles
-- **60-Second Test** — Timed test with visual countdown
-- **Dark Mode** — Supports dark theme
+- **WPM & CPM** real-time speed tracking
+- **Accuracy** monitoring with error highlighting
+- **English & Chinese** practice articles
+- **60-second** timed test with visual countdown
 
 ## Installation
 
-Play directly in [browser](https://tinker.liriliri.io/plugins/typing-test), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-typing-test`.
+Play directly in [browser](https://tinker.liriliri.io/plugins/typing-test), or install via [TINKER](https://tinker.liriliri.io/):
+
+```bash
+npm i -g tinker-typing-test
+```
+
 
 ## Usage
 

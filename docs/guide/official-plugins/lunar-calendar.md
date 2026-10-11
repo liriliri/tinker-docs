@@ -1,20 +1,24 @@
 # tinker-lunar-calendar
 
-A perpetual calendar plugin for [TINKER](https://tinker.liriliri.io/), supporting lunar dates, solar terms, and Chinese almanac information.
+A perpetual calendar plugin for [TINKER](https://github.com/liriliri/tinker), supporting lunar dates, solar terms, and Chinese almanac information.
 
 ![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-lunar-calendar/screenshot.png)
 
 ## Features
 
-- **Solar & Lunar Dates** — Month-grid view with both calendar systems
-- **Solar Terms & Festivals** — Highlighted on each day
-- **Holiday & Workday** — Marks for Chinese statutory holidays
-- **Almanac Details** — Gan Zhi, zodiac, constellation, Yi/Ji, Chong, Sha, and Peng Zu
-- **Dark Mode** — Supports dark theme
+- **Solar & Lunar Dates** with month-grid view
+- **Solar Terms & Festivals** highlighted on each day
+- **Holiday & Workday** marks for Chinese statutory holidays
+- **Almanac Details** including Gan Zhi, zodiac, constellation, Yi/Ji, Chong, Sha, and Peng Zu
 
 ## Installation
 
-Play directly in [browser](https://tinker.liriliri.io/plugins/lunar-calendar), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-lunar-calendar`.
+Play directly in [browser](https://tinker.liriliri.io/plugins/lunar-calendar), or install via [TINKER](https://tinker.liriliri.io/):
+
+```bash
+npm i -g tinker-lunar-calendar
+```
+
 
 ## Usage
 

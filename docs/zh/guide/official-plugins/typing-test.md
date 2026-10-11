@@ -1,24 +1,27 @@
 # tinker-typing-test
 
-打字测速插件，实时追踪 WPM/CPM 和准确率统计。
+[TINKER](https://github.com/liriliri/tinker) 的打字测速插件，实时追踪 WPM/CPM 和准确率。
 
 ![截图](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-typing-test/screenshot.png)
 
 ## 功能特性
 
-- **WPM 和 CPM** — 实时速度追踪
-- **准确率** — 错误高亮监控
-- **双语支持** — 支持英文和中文文章
-- **60 秒测试** — 带可视化倒计时的计时测试
-- **深色模式** — 支持深色主题
+- **WPM 和 CPM** 实时速度追踪
+- **准确率**监控，错误高亮
+- **英文与中文**练习文章
+- **60 秒**计时测试，带可视化倒计时
 
 ## 安装
 
-直接在[浏览器](https://tinker.liriliri.io/plugins/typing-test)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-typing-test`。
+直接在[浏览器](https://tinker.liriliri.io/plugins/typing-test)中体验，或通过 [TINKER](https://tinker.liriliri.io/) 安装：
+
+```bash
+npm i -g tinker-typing-test
+```
 
 ## 使用方法
 
 1. 使用语言切换按钮选择语言
 2. 开始输入显示的文本即可开始测试
 3. 60 秒后查看 WPM、CPM 和准确率结果
-4. 点击**再练一次**使用新文章重新测试
+4. 点击 **Practice Again** 使用新文章重新测试

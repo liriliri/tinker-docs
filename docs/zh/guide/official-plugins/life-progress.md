@@ -1,6 +1,6 @@
-# 人生进度
+# tinker-life-progress
 
-一款用于 [TINKER](https://tinker.liriliri.io/) 的人生进度可视化插件，从多个维度追踪时间的流逝。
+[TINKER](https://github.com/liriliri/tinker) 的人生进度可视化插件，从多个维度追踪时间的流逝。
 
 ![截图](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-life-progress/screenshot.png)
 
@@ -10,14 +10,17 @@
 - **年 / 月 / 周 / 日**进度追踪，显示剩余时间
 - **动画进度条**，带有闪烁和发光效果
 - **可配置生日和预期寿命**，通过设置对话框配置
-- 支持**暗色模式**
 
 ## 安装
 
-直接在[浏览器](https://tinker.liriliri.io/plugins/life-progress)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-life-progress`。
+直接在[浏览器](https://tinker.liriliri.io/plugins/life-progress)中体验，或通过 [TINKER](https://tinker.liriliri.io/) 安装：
+
+```bash
+npm i -g tinker-life-progress
+```
 
 ## 使用方法
 
 1. 查看人生、年、月、周和日的进度条
-2. 点击"设置"配置你的生日和预期寿命
+2. 点击「Settings」配置生日和预期寿命
 3. 进度每分钟自动更新

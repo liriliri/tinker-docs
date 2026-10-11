@@ -10,11 +10,14 @@
 - **滚轮反馈**：在鼠标示意图上显示上滚/下滚
 - **实时遥测**：光标位置、移动增量与双击检测
 - **光学感应区**：带传感器追踪指示的 UI
-- **深色模式**：支持深色主题
 
 ## 安装
 
-直接在[浏览器](https://tinker.liriliri.io/plugins/mouse-tester)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-mouse-tester`。
+直接在[浏览器](https://tinker.liriliri.io/plugins/mouse-tester)中体验，或通过 [TINKER](https://tinker.liriliri.io/) 安装：
+
+```bash
+npm i -g tinker-mouse-tester
+```
 
 ## 使用方法
 

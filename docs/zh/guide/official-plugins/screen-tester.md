@@ -13,7 +13,12 @@
 
 ## 安装
 
-直接在[浏览器](https://tinker.liriliri.io/plugins/screen-tester)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-screen-tester`。
+直接在[浏览器](https://tinker.liriliri.io/plugins/screen-tester)中体验，或通过 [TINKER](https://tinker.liriliri.io/) 安装：
+
+```bash
+npm i -g tinker-screen-tester
+```
+
 
 ## 使用方法
 

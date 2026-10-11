@@ -10,11 +10,15 @@ A JS13K games plugin for [TINKER](https://github.com/liriliri/tinker), featuring
 - **Search** games by name, author, or description
 - **Responsive Grid** layout adapting to window size
 - **In-app Playback** with fullscreen support
-- **Dark Mode** support
 
 ## Installation
 
-Play directly in [browser](https://tinker.liriliri.io/plugins/js13k), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-js13k`.
+Play directly in [browser](https://tinker.liriliri.io/plugins/js13k), or install via [TINKER](https://tinker.liriliri.io/):
+
+```bash
+npm i -g tinker-js13k
+```
+
 
 ## Usage
 

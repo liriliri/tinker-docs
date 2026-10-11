@@ -1,25 +1,29 @@
 # tinker-white-noise
 
-White noise plugin with multiple natural ambient sounds and shader-powered dynamic scenes to help you relax and focus.
+A white noise plugin for [TINKER](https://github.com/liriliri/tinker), featuring ambient scenes with relaxing audio and shader visuals.
 
 ![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-white-noise/screenshot.png)
 
 ## Features
 
-- **Multiple Scenes** — Snowy, rainy, seaside, fire, deep ocean, and night environments
-- **Dynamic Visuals** — Real-time shader-rendered animated scenes
-- **Volume Control** — Mute, 25%, 50%, 75%, and 100% volume levels
-- **Fullscreen** — Immersive fullscreen experience
-- **Context Menu** — Right-click to quickly switch scenes and adjust volume
+- **6 Scenes**: Snowy, Rainy, Seaside, Bonfire, Deep Ocean, Night
+- **Shader Visuals** powered by WebGL
+- **Looping Audio** for each scene
+- **Volume Control** with mute option
+- **Fullscreen** support
 
 ## Installation
 
-Play directly in [browser](https://tinker.liriliri.io/plugins/white-noise), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-white-noise`.
+Play directly in [browser](https://tinker.liriliri.io/plugins/white-noise), or install via [TINKER](https://tinker.liriliri.io/):
+
+```bash
+npm i -g tinker-white-noise
+```
+
 
 ## Usage
 
-1. The default scene plays automatically when the plugin opens
-2. Right-click the screen to open the context menu
-3. Select a different scene to switch ambient sound and visuals
-4. Adjust volume in the volume submenu
-5. Click fullscreen for an immersive experience
+1. Right-click to open the context menu
+2. Select a scene (Snowy, Rainy, Seaside, Bonfire, Deep Ocean, or Night)
+3. Adjust the volume or mute as needed
+4. Toggle fullscreen for an immersive experience

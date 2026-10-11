@@ -9,11 +9,15 @@ A gamepad tester plugin for [TINKER](https://github.com/liriliri/tinker), suppor
 - **Real-time Input** visualization for buttons, axes, and triggers
 - **Multiple Gamepads** support with player switcher
 - **Stick Path Tracing** for analog stick movement history
-- **Dark Mode** support
 
 ## Installation
 
-Play directly in [browser](https://tinker.liriliri.io/plugins/gamepad), or install via TINKER: download from `https://tinker.liriliri.io/`, then run `npm i -g tinker-gamepad`.
+Play directly in [browser](https://tinker.liriliri.io/plugins/gamepad), or install via [TINKER](https://tinker.liriliri.io/):
+
+```bash
+npm i -g tinker-gamepad
+```
+
 
 ## Usage
 

@@ -4,19 +4,22 @@
 
 ![Screenshot](https://raw.githubusercontent.com/liriliri/tinker-plugins/master/packages/tinker-js13k/screenshot.png)
 
-## 功能
+## 功能特性
 
 - **16 款精选游戏**，来自 JS13K 竞赛（2017–2025）
 - **搜索**，按名称、作者或描述搜索游戏
 - **响应式网格**布局，自动适配窗口大小
 - **应用内游玩**，支持全屏模式
-- **深色模式**支持
 
 ## 安装
 
-直接在[浏览器](https://tinker.liriliri.io/plugins/js13k)中体验，或通过 TINKER 安装：从 `https://tinker.liriliri.io/` 下载，然后运行 `npm i -g tinker-js13k`。
+直接在[浏览器](https://tinker.liriliri.io/plugins/js13k)中体验，或通过 [TINKER](https://tinker.liriliri.io/) 安装：
 
-## 使用
+```bash
+npm i -g tinker-js13k
+```
+
+## 使用方法
 
 1. 在网格视图中浏览游戏合集
 2. 使用搜索栏搜索游戏
