@@ -76,7 +76,10 @@ export default defineConfig({
       description:
         'Open-source desktop toolbox with 100+ local productivity tools. Agent-ready, offline-first.',
       themeConfig: {
-        nav: [{ text: 'Guide', link: '/guide/' }],
+        nav: [
+          { text: 'Guide', link: '/guide/' },
+          { text: 'Online', link: '/online/' },
+        ],
       },
     },
     zh: {
@@ -85,7 +88,10 @@ export default defineConfig({
       description:
         '开源桌面效率工具箱，内置上百款本地小工具。快捷呼出、本地优先，可通过 CLI、MCP 与 Agent Skills 被 AI 调用。',
       themeConfig: {
-        nav: [{ text: '指南', link: '/zh/guide/' }],
+        nav: [
+          { text: '指南', link: '/zh/guide/' },
+          { text: '在线', link: '/zh/online/' },
+        ],
         sidebar: {
           'zh/guide/': zhSidebar,
         },

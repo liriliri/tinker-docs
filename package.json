@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/liriliri/tinker-docs#readme",
   "devDependencies": {
+    "@types/node": "^25.9.9",
+    "luna-icon-list": "^0.7.0",
     "luna-shader-toy-player": "^0.5.1",
+    "pinyin": "^4.0.0",
     "vitepress": "^1.5.0"
-  },
-  "dependencies": {
-    "@types/node": "^25.0.3"
   }
 }
