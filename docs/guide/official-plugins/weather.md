@@ -14,7 +14,7 @@ A weather plugin for [TINKER](https://tinker.liriliri.io/), providing real-time 
 
 ## Installation
 
-Download and install [TINKER](https://tinker.liriliri.io/), then run:
+Play directly in [browser](https://tinker.liriliri.io/plugins/weather), or install via [TINKER](https://tinker.liriliri.io/):
 
 ```bash
 npm i -g tinker-weather

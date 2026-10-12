@@ -12,7 +12,7 @@ A gold price plugin for [TINKER](https://tinker.liriliri.io/), showing Shanghai 
 
 ## Installation
 
-Download and install [TINKER](https://tinker.liriliri.io/), then run:
+Play directly in [browser](https://tinker.liriliri.io/plugins/gold-price), or install via [TINKER](https://tinker.liriliri.io/):
 
 ```bash
 npm i -g tinker-gold-price

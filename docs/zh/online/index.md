@@ -4,6 +4,7 @@ title: 在线工具
 description: 在浏览器中使用 TINKER 插件——搜索、按分类浏览，点击即可打开。
 sidebar: false
 aside: false
+footer: false
 ---
 
 <script setup>

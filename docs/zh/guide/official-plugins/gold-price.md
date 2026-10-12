@@ -12,7 +12,7 @@
 
 ## 安装
 
-下载并安装 [TINKER](https://tinker.liriliri.io/)，然后运行：
+直接在[浏览器](https://tinker.liriliri.io/plugins/gold-price)中体验，或通过 [TINKER](https://tinker.liriliri.io/) 安装：
 
 ```bash
 npm i -g tinker-gold-price

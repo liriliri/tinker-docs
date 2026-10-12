@@ -83,6 +83,13 @@ export const onlinePlugins: OnlinePlugin[] = [
     category: 'media',
   },
   {
+    id: 'dos',
+    name: 'DOS',
+    description: 'Run DOS programs and games',
+    descriptionZh: '运行 DOS 程序与游戏',
+    category: 'entertainment',
+  },
+  {
     id: 'emoji',
     name: 'Emoji',
     description: 'Search and copy emojis quickly',
@@ -96,6 +103,21 @@ export const onlinePlugins: OnlinePlugin[] = [
     description: 'Test and visualize gamepad inputs',
     descriptionZh: '测试并可视化游戏手柄输入',
     category: 'system',
+  },
+  {
+    id: 'gba',
+    name: 'GBA',
+    description: 'Play Game Boy Advance ROMs',
+    descriptionZh: '运行 Game Boy Advance 游戏',
+    category: 'entertainment',
+  },
+  {
+    id: 'gold-price',
+    name: 'Gold Price',
+    nameZh: '金价',
+    description: 'Query gold prices',
+    descriptionZh: '查询黄金价格',
+    category: 'productivity',
   },
   {
     id: 'gomoku',
@@ -173,6 +195,21 @@ export const onlinePlugins: OnlinePlugin[] = [
     category: 'system',
   },
   {
+    id: 'n64',
+    name: 'N64',
+    description: 'Play N64 ROMs with save state support',
+    descriptionZh: '运行 N64 游戏，支持存档',
+    category: 'entertainment',
+  },
+  {
+    id: 'nes',
+    name: 'NES',
+    nameZh: '红白机',
+    description: 'Play NES ROMs with save state support',
+    descriptionZh: '运行 NES 游戏，支持存档',
+    category: 'entertainment',
+  },
+  {
     id: 'reversi',
     name: 'Reversi',
     nameZh: '黑白棋',
@@ -208,6 +245,14 @@ export const onlinePlugins: OnlinePlugin[] = [
     kind: 'game',
   },
   {
+    id: 'svg-editor',
+    name: 'SVG Editor',
+    nameZh: 'SVG 编辑',
+    description: 'Draw and edit SVG vector graphics, with PNG export',
+    descriptionZh: '绘制与编辑 SVG 矢量图，支持导出 PNG',
+    category: 'media',
+  },
+  {
     id: 'trap-the-cat',
     name: 'Trap the Cat',
     nameZh: '圈小猫',
@@ -223,6 +268,14 @@ export const onlinePlugins: OnlinePlugin[] = [
     description: 'Test and improve your typing speed',
     descriptionZh: '测试并提高你的打字速度',
     category: 'entertainment',
+  },
+  {
+    id: 'weather',
+    name: 'Weather',
+    nameZh: '天气',
+    description: 'Check real-time weather and forecasts',
+    descriptionZh: '查看实时天气和天气预报',
+    category: 'productivity',
   },
   {
     id: 'white-noise',

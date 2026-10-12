@@ -14,7 +14,7 @@ A DOS emulator plugin for [TINKER](https://github.com/liriliri/tinker), powered 
 
 ## Installation
 
-Download and install [TINKER](https://tinker.liriliri.io/), then run:
+Play directly in [browser](https://tinker.liriliri.io/plugins/dos), or install via [TINKER](https://tinker.liriliri.io/):
 
 ```bash
 npm i -g tinker-dos
