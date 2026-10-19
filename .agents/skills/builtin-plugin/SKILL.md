@@ -1,66 +1,82 @@
 ---
 name: builtin-plugin
-description: Add a built-in plugin documentation page by reading source code from tinker/plugins.
+description: Add or update a built-in plugin documentation page from tinker/plugins, including the online launcher when the plugin has build:web.
 ---
 
-# Add Built-in Plugin Documentation
+# Add or Update Built-in Plugin Documentation
 
-When the user asks to add a built-in plugin doc (e.g. "add built-in plugin xxx doc"), follow these steps:
+When the user asks to add or update a built-in plugin doc (e.g. "add built-in plugin xxx doc", "update xxx"), follow these steps.
+
+If the doc and sidebar already exist and the task is only web support, skip to step 5.
 
 ## 1. Read plugin info
 
-Read the plugin's `package.json` from `tinker/plugins/tinker-<name>/package.json` to get:
-- `tinker.name` — used as the English sidebar item text
-- `tinker.locales.zh-CN.name` — used as the Chinese sidebar item text
+From `tinker/plugins/tinker-<name>/package.json`:
 
-Since built-in plugins typically don't have a README, read the source code under `tinker/plugins/tinker-<name>/src/` to understand the plugin's functionality:
-- `package.json` `description` field for a brief summary
-- Components (`src/renderer/components/`) for UI features
-- Store (`src/renderer/store.ts`) for core logic and state
-- Locale files (`src/renderer/i18n/locales/`) for feature labels
-- Preload (`src/preload/index.ts`) for system-level capabilities
-- Types (`src/renderer/types.ts`) for data structures
+- `tinker.name`, `tinker.locales.zh-CN.name` (fallback to `tinker.name`)
+- `scripts.build:web` — present means browser play is supported
+- Online launcher copy: `tinker.description` when set, otherwise root `description`; plus `tinker.locales.zh-CN.description` and `tinker.category`
 
-## 2. Create English doc
+Built-in plugins usually have no README. Read `src/` for the UI. Layout is either flat or under `renderer/`:
 
-Create `docs/guide/built-in-plugins/<name>.md` with:
+- `src/components/` or `src/renderer/components/`
+- `src/store.ts` or `src/renderer/store.ts`
+- `src/i18n/en-US.json` and `zh-CN.json` (same paths under `renderer/` when that layout is used)
+- `src/preload/index.ts` when the plugin has one
+- `src/lib/` for non-UI logic
+
+## 2. Create or update English doc
+
+`docs/guide/built-in-plugins/<name>.md`:
+
 - Title: `# tinker-<name>`
 - One-sentence description linking to [TINKER](https://github.com/liriliri/tinker)
-- Screenshot: `![Screenshot](/<name_with_underscores>.png)` (referencing `docs/public/<name_with_underscores>.png`, use underscores instead of hyphens, e.g. `audio_editor.png`)
-- Features section with key capabilities (use `**bold** —` format)
-- Usage section with numbered steps
+- Screenshot: `![Screenshot](/<name_with_underscores>.png)` in `docs/public/` (hyphens become underscores, e.g. `audio_editor.png`)
+- Features (`**bold** —`) and numbered Usage
 
-Refer to existing docs under `docs/guide/built-in-plugins/` for style reference.
+Match existing pages under `docs/guide/built-in-plugins/`.
 
-## 3. Create Chinese doc
+## 3. Create or update Chinese doc
 
-Create `docs/zh/guide/built-in-plugins/<name>.md` with the same structure translated to Chinese. Keep technical terms (e.g. Base64, TOTP, QR, SHA256, npm) untranslated.
+`docs/zh/guide/built-in-plugins/<name>.md`, same structure in Chinese. Keep technical terms (Base64, TOTP, QR, SHA256, npm) untranslated. Screenshot alt text: `![截图]`.
 
-## 4. Update sidebar config
+## 4. Update sidebar config (add only)
 
-In `docs/.vitepress/sidebar.mts`, add an entry to BOTH sidebar arrays:
+If the plugin is new, add to both sidebars in `docs/.vitepress/sidebar.mts` (`Built-in Plugins` / `内置插件`), sorted by plugin id. Use code-point order (`-` before letters):
 
-- English sidebar (`enSidebar` → `Built-in Plugins` items array):
-  ```js
-  {
-    text: '<tinker.name value>',
-    link: '/guide/built-in-plugins/<name>',
-  },
-  ```
+```js
+// enSidebar
+{ text: '<tinker.name>', link: '/guide/built-in-plugins/<name>' }
 
-- Chinese sidebar (`zhSidebar` → `内置插件` items array):
-  ```js
-  {
-    text: '<tinker.locales.zh-CN.name value>',
-    link: '/zh/guide/built-in-plugins/<name>',
-  },
-  ```
+// zhSidebar
+{ text: '<tinker.locales.zh-CN.name>', link: '/zh/guide/built-in-plugins/<name>' }
+```
+
+Example: `ai-assistant` → `anniversary` → `archive` → `audio-editor`, and `white-noise` before `whiteboard`.
+
+## 5. Online launcher (when supported)
+
+Only if `scripts.build:web` exists. Also do this alone when an existing plugin gains `build:web`.
+
+1. Copy `icon.png` → `docs/public/icons/<name>.png` (keep hyphens; this is not the screenshot path)
+2. Upsert into `docs/.vitepress/theme/lib/onlinePlugins.ts` (`onlinePlugins`, same id sort as the sidebar):
+
+```ts
+{
+  id: '<name>',
+  name: '<tinker.name>',
+  nameZh: '<tinker.locales.zh-CN.name>', // omit if same as name
+  description: '<tinker.description, else package.json description>',
+  descriptionZh: '<tinker.locales.zh-CN.description>',
+  category: '<tinker.category>',
+}
+```
+
+`icon` / `url` are derived from `id` (`/icons/<name>.png`, `https://tinker.liriliri.io/plugins/<name>`).
 
 ## Key rules
 
-- The sidebar item `text` MUST come from `package.json`: English uses `tinker.name`, Chinese uses `tinker.locales.zh-CN.name` (if it exists, otherwise fall back to `tinker.name`)
-- The file name under `built-in-plugins/` should be the plugin name without the `tinker-` prefix (e.g. `tinker-base64` → `base64.md`)
-- The sidebar category is `Built-in Plugins` (EN) / `内置插件` (ZH) with `collapsed: false`
-- Sidebar items MUST be sorted by plugin ID in alphabetical order (e.g. ai-assistant → audio-editor → authenticator → base64)
-- Screenshot images use absolute path `/<name_with_underscores>.png` referencing files in `docs/public/` (use underscores, e.g. `audio_editor.png`)
-- Documentation content is generated from source code analysis, not from a README
+- File name is the plugin id without `tinker-` (`tinker-base64` → `base64.md`)
+- Sidebar / online `name` fields come from `package.json` as above
+- Docs come from source, not a README
+- Screenshots use `/<underscores>.png`; launcher icons use `/icons/<hyphens>.png`

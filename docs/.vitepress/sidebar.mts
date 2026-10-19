@@ -459,6 +459,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/gamepad',
       },
       {
+        text: 'Game Music',
+        link: '/guide/official-plugins/game-music',
+      },
+      {
         text: 'GBA',
         link: '/guide/official-plugins/gba',
       },
@@ -635,6 +639,10 @@ export const enSidebar = [
       {
         text: 'Chinese Chess',
         link: '/guide/official-games/chinese-chess',
+      },
+      {
+        text: 'Geometry Fighter',
+        link: '/guide/official-games/geometry-fighter',
       },
       {
         text: 'Gomoku',
@@ -1207,6 +1215,10 @@ export const zhSidebar = [
         link: '/zh/guide/official-plugins/gamepad',
       },
       {
+        text: '游戏音乐',
+        link: '/zh/guide/official-plugins/game-music',
+      },
+      {
         text: 'GBA',
         link: '/zh/guide/official-plugins/gba',
       },
@@ -1383,6 +1395,10 @@ export const zhSidebar = [
       {
         text: '中国象棋',
         link: '/zh/guide/official-games/chinese-chess',
+      },
+      {
+        text: '几何战机',
+        link: '/zh/guide/official-games/geometry-fighter',
       },
       {
         text: '五子棋',
