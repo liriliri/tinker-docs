@@ -1,0 +1,63 @@
+/* Unsuffixed tokens follow the current theme. -dark tokens stay on the dark
+   palette because luna's .theme-dark rules read those names. */
+
+:root {
+  --luna-color-text: var(--vp-c-text-1);
+  --luna-color-text-dark: var(--vp-c-text-1);
+  --luna-color-primary: var(--vp-c-brand-1);
+  --luna-color-bg-container: #f0f1f2;
+  --luna-color-bg-container-dark: #303133;
+  --luna-color-border: var(--vp-c-divider);
+  --luna-color-fill: rgba(0, 0, 0, 0.15);
+}
+
+.dark {
+  --luna-color-fill: rgba(255, 255, 255, 0.18);
+}
+
+.luna-window {
+  border: 1px solid var(--luna-color-border);
+  border-radius: 6px;
+  /* overflow:hidden plus border-radius clips the built-in shadow. */
+  overflow: visible;
+}
+
+.luna-window[style*='width: 100%'] {
+  border-radius: 0;
+}
+
+.dark .luna-window {
+  /* Same shadow shape as luna-window. Its 5–8% black disappears on the dark page. */
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.28),
+    0 3px 6px -4px rgba(0, 0, 0, 0.22), 0 9px 28px 8px rgba(0, 0, 0, 0.34);
+}
+
+.luna-window-body {
+  border-radius: 0 0 5px 5px;
+}
+
+.luna-window-title-bar,
+.luna-window.luna-window-active .luna-window-title-bar {
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  background: var(--vp-c-bg-soft);
+  border-bottom: 1px solid var(--luna-color-border);
+}
+
+.luna-window[style*='width: 100%'] .luna-window-title-bar,
+.luna-window[style*='width: 100%'] .luna-window-body {
+  border-radius: 0;
+}
+
+.luna-window-title-bar-right .luna-window-icon:hover {
+  background: var(--luna-color-fill);
+}
+
+.luna-window-task-bar-item {
+  background: var(--luna-color-fill);
+}
+
+.luna-window-task-bar-item.luna-window-active,
+.luna-window-task-bar-item:hover {
+  background: var(--luna-color-primary);
+}

@@ -14,12 +14,15 @@ const { lang, isDark } = useData()
 const isZh = computed(() => lang.value === 'zh')
 
 const LunaIconList = defineClientComponent(() => import('luna-icon-list/vue'))
+const LunaWindow = defineClientComponent(() => import('luna-window/vue'))
 
 const filter = ref('')
 const category = ref('all')
 const tabRefs = ref({})
 const indicator = ref({ left: 0, width: 0, ready: false })
+const windows = ref([])
 let iconList = null
+let nextWindowId = 1
 
 const tabs = computed(() => ['all', ...PLUGIN_CATEGORIES])
 const showCategoryTabs = computed(() => !filter.value.trim())
@@ -97,11 +100,49 @@ function setCategory(id) {
   category.value = id
 }
 
+function openWindow({ title, url }) {
+  const margin = 32
+  const width = Math.min(800, Math.max(360, window.innerWidth - margin * 2))
+  const height = Math.min(600, Math.max(280, window.innerHeight - margin * 2))
+  const offset = (windows.value.length % 8) * 28
+  const maxX = Math.max(0, window.innerWidth - width)
+  const maxY = Math.max(0, window.innerHeight - height)
+  windows.value.push({
+    id: nextWindowId++,
+    title,
+    url,
+    x: Math.min(
+      maxX,
+      Math.max(0, Math.round((window.innerWidth - width) / 2) + offset)
+    ),
+    y: Math.min(
+      maxY,
+      Math.max(0, Math.round((window.innerHeight - height) / 2) + offset)
+    ),
+    width,
+    height,
+  })
+}
+
+function onWindowCreate(instance, id) {
+  let destroyed = false
+  const originalDestroy = instance.destroy
+  instance.destroy = () => {
+    if (destroyed) return
+    destroyed = true
+    originalDestroy()
+  }
+  instance.on('destroy', () => {
+    destroyed = true
+    windows.value = windows.value.filter((item) => item.id !== id)
+  })
+}
+
 function onCreate(instance) {
   iconList = instance
   iconList.on('click', (_e, icon) => {
-    const url = icon?.data?.url
-    if (url) window.location.href = url
+    const data = icon?.data
+    if (data?.url) openWindow({ title: data.name || '', url: data.url })
   })
   iconList.on('dblclick', (_e, icon) => {
     const url = icon?.data?.url
@@ -119,7 +160,7 @@ function onSearchKeydown(e) {
   }
   if (e.key !== 'Enter') return
   const first = visiblePlugins.value[0]
-  if (first) window.location.href = pluginUrl(first)
+  if (first) openWindow({ title: pluginName(first), url: pluginUrl(first) })
 }
 
 function setTabRef(id, el) {
@@ -188,6 +229,19 @@ function categoryLabel(id) {
         </button>
       </div>
     </div>
+
+    <LunaWindow
+      v-for="item in windows"
+      :key="item.id"
+      :theme="theme"
+      :title="item.title"
+      :content="item.url"
+      :x="item.x"
+      :y="item.y"
+      :width="item.width"
+      :height="item.height"
+      @create="(instance) => onWindowCreate(instance, item.id)"
+    />
   </div>
 </template>
 
@@ -201,10 +255,6 @@ function categoryLabel(id) {
   margin: 0 auto;
   background: var(--vp-c-bg);
   color: var(--vp-c-text-1);
-  --luna-color-text: var(--vp-c-text-1);
-  --luna-color-text-dark: var(--vp-c-text-1);
-  --luna-color-primary: var(--vp-c-brand-1);
-  --luna-color-border: var(--vp-c-divider);
 }
 
 .titlebar {
