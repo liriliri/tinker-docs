@@ -402,6 +402,14 @@ export const onlinePlugins: OnlinePlugin[] = [
     category: 'productivity',
   },
   {
+    id: 'radio',
+    name: 'Radio',
+    nameZh: '电台',
+    description: 'Search and play internet radio stations',
+    descriptionZh: '搜索并收听网络电台',
+    category: 'entertainment',
+  },
+  {
     id: 'regexp',
     name: 'RegExp',
     nameZh: '正则表达式',

@@ -547,6 +547,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/office',
       },
       {
+        text: 'Radio',
+        link: '/guide/official-plugins/radio',
+      },
+      {
         text: 'Search All',
         link: '/guide/official-plugins/search-all',
       },
@@ -1301,6 +1305,10 @@ export const zhSidebar = [
       {
         text: 'Office',
         link: '/zh/guide/official-plugins/office',
+      },
+      {
+        text: '电台',
+        link: '/zh/guide/official-plugins/radio',
       },
       {
         text: '全局搜索',
