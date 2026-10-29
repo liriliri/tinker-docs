@@ -391,6 +391,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/aquarium',
       },
       {
+        text: 'Asar Viewer',
+        link: '/guide/official-plugins/asar',
+      },
+      {
         text: 'Audio Transcriber',
         link: '/guide/official-plugins/audio-transcriber',
       },
@@ -651,6 +655,10 @@ export const enSidebar = [
       {
         text: 'Gomoku',
         link: '/guide/official-games/gomoku',
+      },
+      {
+        text: 'Jigsaw',
+        link: '/guide/official-games/jigsaw',
       },
       {
         text: 'Jump Jump',
@@ -1151,6 +1159,10 @@ export const zhSidebar = [
         link: '/zh/guide/official-plugins/aquarium',
       },
       {
+        text: 'ASAR 查看器',
+        link: '/zh/guide/official-plugins/asar',
+      },
+      {
         text: '音频转录',
         link: '/zh/guide/official-plugins/audio-transcriber',
       },
@@ -1411,6 +1423,10 @@ export const zhSidebar = [
       {
         text: '五子棋',
         link: '/zh/guide/official-games/gomoku',
+      },
+      {
+        text: '拼图',
+        link: '/zh/guide/official-games/jigsaw',
       },
       {
         text: '跳一跳',

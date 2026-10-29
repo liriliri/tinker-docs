@@ -289,6 +289,15 @@ export const onlinePlugins: OnlinePlugin[] = [
     category: 'media',
   },
   {
+    id: 'jigsaw',
+    name: 'Jigsaw',
+    nameZh: '拼图',
+    description: 'Drag the pieces together until the picture is whole again.',
+    descriptionZh: '把碎片拖回原位，拼出整张图。',
+    category: 'entertainment',
+    kind: 'game',
+  },
+  {
     id: 'js13k',
     name: 'JS13K Games',
     nameZh: 'JS13K 游戏',
