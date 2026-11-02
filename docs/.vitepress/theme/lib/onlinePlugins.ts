@@ -419,6 +419,14 @@ export const onlinePlugins: OnlinePlugin[] = [
     category: 'entertainment',
   },
   {
+    id: 'remesher',
+    name: 'Remesher',
+    nameZh: '重拓扑',
+    description: 'Quad and isotropic remeshing for GLB models',
+    descriptionZh: '对 GLB 模型做四边形或各向同性重网格',
+    category: 'media',
+  },
+  {
     id: 'regexp',
     name: 'RegExp',
     nameZh: '正则表达式',

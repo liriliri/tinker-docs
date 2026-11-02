@@ -555,6 +555,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/radio',
       },
       {
+        text: 'Remesher',
+        link: '/guide/official-plugins/remesher',
+      },
+      {
         text: 'Search All',
         link: '/guide/official-plugins/search-all',
       },
@@ -1321,6 +1325,10 @@ export const zhSidebar = [
       {
         text: '电台',
         link: '/zh/guide/official-plugins/radio',
+      },
+      {
+        text: '重拓扑',
+        link: '/zh/guide/official-plugins/remesher',
       },
       {
         text: '全局搜索',
