@@ -444,6 +444,15 @@ export const onlinePlugins: OnlinePlugin[] = [
     kind: 'game',
   },
   {
+    id: 'rubiks-cube',
+    name: "Rubik's Cube",
+    nameZh: '魔方',
+    description: "Drag layers to twist a 3D Rubik's Cube — scramble, time your solve, and chase a new best.",
+    descriptionZh: '拖拽转层玩 3D 魔方，打乱计时，挑战最佳成绩。',
+    category: 'entertainment',
+    kind: 'game',
+  },
+  {
     id: 'screen-tester',
     name: 'Screen Tester',
     nameZh: '屏幕测试',

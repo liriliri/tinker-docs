@@ -677,6 +677,10 @@ export const enSidebar = [
         link: '/guide/official-games/reversi',
       },
       {
+        text: "Rubik's Cube",
+        link: '/guide/official-games/rubiks-cube',
+      },
+      {
         text: 'Spider Solitaire',
         link: '/guide/official-games/spider-solitaire',
       },
@@ -1447,6 +1451,10 @@ export const zhSidebar = [
       {
         text: '黑白棋',
         link: '/zh/guide/official-games/reversi',
+      },
+      {
+        text: '魔方',
+        link: '/zh/guide/official-games/rubiks-cube',
       },
       {
         text: '蜘蛛纸牌',
