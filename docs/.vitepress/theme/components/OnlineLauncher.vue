@@ -8,7 +8,7 @@ import {
   pluginIcon,
   pluginUrl,
 } from '../lib/onlinePlugins'
-import { sortByName } from '../lib/util'
+import { pinyinMatch, sortByName } from '../lib/util'
 
 const { lang, isDark } = useData()
 const isZh = computed(() => lang.value === 'zh')
@@ -39,11 +39,10 @@ function pluginDescription(plugin) {
 
 function matchesFilter(plugin, query) {
   if (!query) return true
-  const q = query.toLowerCase()
+  const lowerFilter = query.toLowerCase().replace(/-/g, '')
   return (
-    pluginName(plugin).toLowerCase().includes(q) ||
-    pluginDescription(plugin).toLowerCase().includes(q) ||
-    plugin.id.toLowerCase().includes(q)
+    pinyinMatch(pluginName(plugin), query) ||
+    plugin.id.replace(/-/g, '').toLowerCase().includes(lowerFilter)
   )
 }
 
