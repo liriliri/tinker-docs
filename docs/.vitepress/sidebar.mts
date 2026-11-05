@@ -551,6 +551,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/office',
       },
       {
+        text: 'Piano',
+        link: '/guide/official-plugins/piano',
+      },
+      {
         text: 'Radio',
         link: '/guide/official-plugins/radio',
       },
@@ -1325,6 +1329,10 @@ export const zhSidebar = [
       {
         text: 'Office',
         link: '/zh/guide/official-plugins/office',
+      },
+      {
+        text: '钢琴',
+        link: '/zh/guide/official-plugins/piano',
       },
       {
         text: '电台',

@@ -395,6 +395,14 @@ export const onlinePlugins: OnlinePlugin[] = [
     category: 'media',
   },
   {
+    id: 'piano',
+    name: 'Piano',
+    nameZh: '钢琴',
+    description: 'Virtual piano with Salamander grand piano samples',
+    descriptionZh: '可弹奏的虚拟钢琴，使用真实钢琴采样',
+    category: 'entertainment',
+  },
+  {
     id: 'pomodoro',
     name: 'Pomodoro',
     nameZh: '番茄钟',
