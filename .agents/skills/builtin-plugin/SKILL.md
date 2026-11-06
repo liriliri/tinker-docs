@@ -66,6 +66,7 @@ Only if `scripts.build:web` exists. Also do this alone when an existing plugin g
   id: '<name>',
   name: '<tinker.name>',
   nameZh: '<tinker.locales.zh-CN.name>', // omit if same as name
+  namePy: ['<full pinyin>', '<first letters>'], // with nameZh
   description: '<tinker.description, else package.json description>',
   descriptionZh: '<tinker.locales.zh-CN.description>',
   category: '<tinker.category>',

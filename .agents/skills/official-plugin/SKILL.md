@@ -46,6 +46,7 @@ Only if the README has a browser play link (e.g. `https://tinker.liriliri.io/plu
   id: '<name>',
   name: '<tinker.name>',
   nameZh: '<tinker.locales.zh-CN.name>', // omit if same as name
+  namePy: ['<full pinyin>', '<first letters>'], // with nameZh
   description: '<package.json description>',
   descriptionZh: '<tinker.locales.zh-CN.description>',
   category: '<tinker.category>',

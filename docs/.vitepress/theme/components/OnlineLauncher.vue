@@ -46,7 +46,7 @@ function matchesFilter(plugin, query) {
   if (!query) return true
   const lowerFilter = query.toLowerCase().replace(/-/g, '')
   return (
-    pinyinMatch(pluginName(plugin), query) ||
+    pinyinMatch(pluginName(plugin), query, plugin.namePy) ||
     plugin.id.replace(/-/g, '').toLowerCase().includes(lowerFilter)
   )
 }
