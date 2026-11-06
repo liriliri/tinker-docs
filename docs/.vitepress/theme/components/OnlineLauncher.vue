@@ -1,6 +1,6 @@
 <script setup>
 import { computed, nextTick, ref, watch } from 'vue'
-import { defineClientComponent, useData } from 'vitepress'
+import { defineClientComponent, inBrowser, useData } from 'vitepress'
 import {
   PLUGIN_CATEGORIES,
   categoryLabels,
@@ -13,7 +13,9 @@ import { pinyinMatch, sortByName } from '../lib/util'
 const { lang, isDark } = useData()
 const isZh = computed(() => lang.value === 'zh')
 
-const LunaIconList = defineClientComponent(() => import('luna-icon-list/vue'))
+const loadIconList = () => import('luna-icon-list/vue')
+if (inBrowser) loadIconList()
+const LunaIconList = defineClientComponent(loadIconList)
 const LunaWindow = defineClientComponent(() => import('luna-window/vue'))
 
 const filter = ref('')
@@ -21,9 +23,12 @@ const category = ref('all')
 const tabRefs = ref({})
 const indicator = ref({ left: 0, width: 0, ready: false })
 const windows = ref([])
+const iconListReady = ref(false)
 let iconList = null
 let nextWindowId = 1
 
+const ICON_SIZE = 48
+const iconSlotPx = `${ICON_SIZE + 16}px`
 const tabs = computed(() => ['all', ...PLUGIN_CATEGORIES])
 const showCategoryTabs = computed(() => !filter.value.trim())
 const theme = computed(() => (isDark.value ? 'dark' : 'light'))
@@ -73,6 +78,10 @@ const icons = computed(() =>
       style: { borderRadius: '6px' },
     }
   })
+)
+
+const showIconSkeleton = computed(
+  () => !iconListReady.value && icons.value.length > 0
 )
 
 function updateIndicator() {
@@ -139,6 +148,7 @@ function onWindowCreate(instance, id) {
 
 function onCreate(instance) {
   iconList = instance
+  iconListReady.value = true
   iconList.on('click', (_e, icon) => {
     const data = icon?.data
     if (data?.url) openWindow({ title: data.name || '', url: data.url })
@@ -191,18 +201,39 @@ function categoryLabel(id) {
       </div>
     </div>
 
-    <div class="body" :class="{ 'with-tabs': showCategoryTabs }">
+    <div
+      class="body"
+      :class="{
+        'with-tabs': showCategoryTabs,
+        'list-pending': showIconSkeleton,
+      }"
+    >
       <div v-if="icons.length === 0 && filter.trim()" class="empty">
         {{ isZh ? '无结果' : 'No Result' }}
       </div>
-      <LunaIconList
-        v-else
-        class="icon-list"
-        :icons="icons"
-        :size="48"
-        :theme="theme"
-        @create="onCreate"
-      />
+      <template v-else>
+        <div
+          v-if="showIconSkeleton"
+          class="icon-skeleton"
+          aria-hidden="true"
+        >
+          <div
+            v-for="plugin in visiblePlugins"
+            :key="plugin.id"
+            class="icon-skeleton-item"
+          >
+            <div class="icon-skeleton-icon" />
+            <div class="icon-skeleton-name" />
+          </div>
+        </div>
+        <LunaIconList
+          class="icon-list"
+          :icons="icons"
+          :size="ICON_SIZE"
+          :theme="theme"
+          @create="onCreate"
+        />
+      </template>
     </div>
 
     <div v-if="showCategoryTabs" class="tabs-wrap">
@@ -313,6 +344,64 @@ function categoryLabel(id) {
 .icon-list {
   height: 100%;
   min-height: 280px;
+}
+
+.body.list-pending .icon-list {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.icon-skeleton {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 0;
+  min-height: 280px;
+}
+
+.icon-skeleton-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  width: v-bind(iconSlotPx);
+  aspect-ratio: 1;
+  box-sizing: border-box;
+}
+
+.icon-skeleton-icon,
+.icon-skeleton-name {
+  border-radius: 6px;
+  background: linear-gradient(
+    90deg,
+    var(--vp-c-bg-soft) 25%,
+    var(--vp-c-bg-mute) 37%,
+    var(--vp-c-bg-soft) 63%
+  );
+  background-size: 400% 100%;
+  animation: icon-skeleton-shimmer 1.2s ease-in-out infinite;
+}
+
+.icon-skeleton-icon {
+  width: 100%;
+  aspect-ratio: 1;
+  margin-bottom: 6px;
+}
+
+.icon-skeleton-name {
+  width: 72%;
+  height: 10px;
+  border-radius: 4px;
+}
+
+@keyframes icon-skeleton-shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .tabs-wrap {
