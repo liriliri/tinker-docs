@@ -387,6 +387,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/agent-skills',
       },
       {
+        text: 'AI Music',
+        link: '/guide/official-plugins/ai-music',
+      },
+      {
         text: 'Aquarium',
         link: '/guide/official-plugins/aquarium',
       },
@@ -543,6 +547,14 @@ export const enSidebar = [
         link: '/guide/official-plugins/nes',
       },
       {
+        text: 'Node Manager',
+        link: '/guide/official-plugins/node-manager',
+      },
+      {
+        text: 'NPM',
+        link: '/guide/official-plugins/npm',
+      },
+      {
         text: 'OCR',
         link: '/guide/official-plugins/ocr',
       },
@@ -569,6 +581,10 @@ export const enSidebar = [
       {
         text: 'Screen Tester',
         link: '/guide/official-plugins/screen-tester',
+      },
+      {
+        text: 'Sound Effect',
+        link: '/guide/official-plugins/sound-effect',
       },
       {
         text: 'Speed Test',
@@ -1167,6 +1183,10 @@ export const zhSidebar = [
         link: '/zh/guide/official-plugins/agent-skills',
       },
       {
+        text: 'AI 音乐',
+        link: '/zh/guide/official-plugins/ai-music',
+      },
+      {
         text: '水族箱',
         link: '/zh/guide/official-plugins/aquarium',
       },
@@ -1323,6 +1343,14 @@ export const zhSidebar = [
         link: '/zh/guide/official-plugins/nes',
       },
       {
+        text: 'Node 管理',
+        link: '/zh/guide/official-plugins/node-manager',
+      },
+      {
+        text: 'NPM',
+        link: '/zh/guide/official-plugins/npm',
+      },
+      {
         text: 'OCR 识别',
         link: '/zh/guide/official-plugins/ocr',
       },
@@ -1349,6 +1377,10 @@ export const zhSidebar = [
       {
         text: '屏幕测试',
         link: '/zh/guide/official-plugins/screen-tester',
+      },
+      {
+        text: '音效生成',
+        link: '/zh/guide/official-plugins/sound-effect',
       },
       {
         text: '网速测试',
