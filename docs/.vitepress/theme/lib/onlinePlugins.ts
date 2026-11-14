@@ -630,6 +630,15 @@ export const onlinePlugins: OnlinePlugin[] = [
     category: 'productivity',
   },
   {
+    id: 'vrm-viewer',
+    name: 'VRM Viewer',
+    nameZh: 'VRM 预览',
+    namePy: ['vrmyulan', 'vrmyl'],
+    description: 'Preview VRM 3D avatar models',
+    descriptionZh: '预览 VRM 3D 角色模型',
+    category: 'media',
+  },
+  {
     id: 'weather',
     name: 'Weather',
     nameZh: '天气',

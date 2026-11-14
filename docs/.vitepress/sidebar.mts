@@ -635,6 +635,10 @@ export const enSidebar = [
         link: '/guide/official-plugins/voice-clone',
       },
       {
+        text: 'VRM Viewer',
+        link: '/guide/official-plugins/vrm-viewer',
+      },
+      {
         text: 'Wallpaper',
         link: '/guide/official-plugins/wallpaper',
       },
@@ -1429,6 +1433,10 @@ export const zhSidebar = [
       {
         text: '音色克隆',
         link: '/zh/guide/official-plugins/voice-clone',
+      },
+      {
+        text: 'VRM 预览',
+        link: '/zh/guide/official-plugins/vrm-viewer',
       },
       {
         text: '壁纸',
